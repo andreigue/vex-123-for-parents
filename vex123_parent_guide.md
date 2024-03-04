@@ -251,7 +251,7 @@ Try running this code with and without an object in the robot's path to see the 
 
 In this exercise, we'll create a scenario where the robot moves forward and reacts differently to colored objects it encounters. The robot will turn left if it detects a blue object, turn right for red, and play a doorbell sound if it sees green.
 
-![Left or right](./figures/color-decisions?????10?????.jpg)
+![Left or right](./figures/color-decision.jpg)
 *The robot moves forward two tiles. If it finds an object, it rings the doorbell, turns, and moves away. Then, it acts happy, whether or not there was an object.*
 
 Here is the corresponding code for this program.
@@ -288,7 +288,7 @@ This exercise introduces the concept of looping by creating a simple, circular p
 - Start by programming the robot with a straightforward sequence: move forward and then turn left. This pattern will make the robot trace a square path.
 - Insert the "Go to start" card at the end of this sequence to initiate the loop, causing the robot to continuously navigate in a square, mimicking a merry-go-round motion.
 
-![Sequence exercise 11](./figures/?????11??.jpg)
+![Sequence exercise 11](./figures/drive-circle.jpg)
 *The robot will drive forward, turn left, and repeat this forever.*
 
 ![Sequence exercise 11-2](./figures/coder-ex10?????12??.jpg)
@@ -301,7 +301,7 @@ In this exercise, we're going to transform a previous activity into an endless l
 ![Random crashes](./figures/path-random.jpg)
 *One possible trajectory of the robots random movements.*
 
-![Random crashes code](./figures/path-random.jpg)
+![Random crashes code](./figures/???)
 *Infinite loop code using the "turn random" card.*
 
 ## Combining What We've Learned
@@ -316,7 +316,7 @@ Now we will try working with multiple "if" cards.
 2. Guide your child to create a sequence using "if color detected" cards for each color, assigning specific actions for each one, such as turning or making a sound, and ending each sequence with an "end if" card.
 3. Watch how the robot identifies each color and performs the corresponding actions, showcasing its ability to make decisions based on color.
 
-![Sequence exercise 14](./figures/obstacle?????4?????.jpg)
+![Sequence exercise 14](./figures/colored-obstacles.jpg)
 *Sequence checking for all 3 colors, and having the robot act different depending on the color in front.*
 
 ![Sequence exercise 14](./figures/coder-exxx?????5?????.jpg)
