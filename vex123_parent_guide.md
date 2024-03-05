@@ -94,9 +94,9 @@ Place the robot on the 123 field, on the middle of a tile, pointing at one of th
 
 Then have your child press the "move forward" button, followed by the central "VEX" button to start.
 
-Once they see that this makes the robot move forward by one tile, place the robot back to the original position, and press the left button. Now if you press start, you will notice that the previous "move forward" command is still in memory, and the "turn left" command  simply got added on top. Keep adding one command at a time, and running to see the result. Make sure your child understands that the robot stores previous commands and appends any new commands to the existing sequence.
+Once they observe the robot advancing by one tile, return the robot to its starting point and press the left button. When you then press the center VEX button (this action is referred to as "running the program"), you'll notice that the robot still remembers the initial "move forward" command and simply adds the new "turn left" command to its sequence. Continue to introduce one command at a time, pressing the center VEX button each time to run the program and observe the outcome. It's important for your child to grasp that the robot retains previously input commands and combines any new commands with those already in memory.
 
-To erase the existing sequence, have your child grab the robot in their hands and shake it. This makes the robot forget everything it has learned so far (imagine shaking all the old commands out of the robot's brain). Try it out!
+To clear the robot's memory of the existing command sequence, simply have your child pick up the robot and give it a shake. This action 'resets' the robot, erasing all previous commands as if shaking them out of its 'brain.' Give it a try and see how the robot responds as if it's learning for the first time!
 
 ![Robot shaking](./figures/shake.jpg)
 *Making the robot forget the previous commands.*
