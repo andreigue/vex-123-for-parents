@@ -123,11 +123,11 @@ The goal is to program the robot to reach the top right tile, exploring differen
 This exercise shifts focus to prediction and critical thinking. Using the VEX 123 field, your child will now predict the robot's final position after a series of commands.
 
 1. Position the robot at the bottom left tile, ensuring your child is watching.
-2. Clearly press a sequence of commands in view of your child, such as "forward, forward, turn left, forward".
+2. Clearly press a sequence of commands in view of your child, such as "forward, forward, turn left, forward". Consider announcing the commands out loud as you press them.
 3. Before having the robot play out the commands, ask your child to predict where on the field the robot will end up after executing these commands. Have them point to the tile.
-4. Press the "VEX" button to set the robot in motion and observe whether the robot's final position matches your child's prediction.
+4. Press the VEX button to set the robot in motion and observe whether the robot's final position matches your child's prediction.
 5. If they get it right, increase the complexity and/or the number of commands given to the robot.
-6. For an occasional added twist, without resetting the robot's memory, add an additional command like "forward" to the existing sequence. Now, your child must also pay attention to whether you shake the robot!
+6. For an occasional added twist, without resetting the robot's memory, add an additional command like "forward" to the existing sequence. Now, your child must also pay attention to whether you shake the robot or not!
 
 As a simple example, here are some ideas of sequences (note that "turn left" and "turn right" are abbreviated with just "left" and "right"):
 
