@@ -173,14 +173,14 @@ In this exercise, you'll use the **blue movement cards** to direct the robot acr
 
 > Please note that the first card must always be the red "when start 123" card.
 
-![Sequence exercise 4](./figures/coder-ex5.jpg)
+![Sequence exercise 5](./figures/coder-ex5.jpg)
 *Sequence illustrating a straight-line path using movement cards.*
 
 Next, try adding some rotations: "turn left", "turn right", "turn around" and "turn random". Allow them at least a few minutes to play around the with current set of cards, and to try out longer and longer sequences.
 
 And finally, try out the "drive until crash", "drive until object", and "drive until line" cards. See what they do. Programming is all about experimenting!
 
-![Sequence exercise 4-2](./figures/coder-ex5-2.jpg)
+![Sequence exercise 5-2](./figures/coder-ex5-2.jpg)
 *Sequence example for returning the robot to the bottom left starting point.*
 
 This is also a great time to practice stepping through your code. Instead of launching the program with the green Start button, use the orange Step button to advance through the code one command at a time. Each press illuminates the next command with an orangish-yellow light, visually cueing the action to be executed. This is particularly useful if your child is puzzled by the robot's behavior, as it breaks down the actions into manageable steps.
@@ -189,20 +189,22 @@ For an in depth guide about stepping, visit [Stepping Through a Project with the
 
 ### Exercise 6: Combining different cards
 
-Now, let's add more variety to your robot's movements by incorporating other types of cards into your sequences. This introduces the concept of combining movements with actions (the green cards), sounds and looks (the two shades of purple), and breaks (the grey cards), adding a layer of complexity and fun to your coding projects.
+Now, let's add more variety to your robot's movements by incorporating other types of cards into your sequences. This introduces the concept of combining movements with actions (the green cards), sounds and looks (the two shades of purple), and execution pauses (the grey cards), adding a layer of complexity and fun to your coding projects.
 
 To explore the full range of Coder cards, excluding the orange and red cards for now, visit the [VEX Coder Card Reference Guide](https://kb.vex.com/hc/en-us/articles/360055264691-VEX-Coder-Card-Reference-Guide).
 
-Have your child play around with all these cards, in whatever order they wish. Make sure they write some programs using all types of cards. This could them anywhere from a couple of minutes, to hours of fun.
+Have your child play around with all these cards, in whatever order they wish. Make sure they write some programs using all types of cards. This could take them anywhere from a couple of minutes, to hours of fun.
 
-![Sequence exercise 5](./figures/coder-ex5.jpg)
+![Sequence exercise 6](./figures/coder-ex6.jpg)
 *Example program of the robot hitting a wall and making it dramatic.*
 
-When they've had enough with experimenting on their own, give them this first challenge: place the robot on the top right tile of the field, and have your child find different ways of getting to the bottom left tile. There is a twist however: every time they turn left or right, they have to play an action card ("act happy", "act sad", or "act crazy"). At first they will suggest the simple drive 4 > drive 1 > turn left > act sad > drive 4 > drive 1.
+When they've had enough with experimenting on their own, give them this first challenge:
 
-Once they do that, challenge them to use less cards to complete this.
+1. Place the robot on the top right tile of the field.
+2. Ask your child to find different ways of getting to the bottom left tile. However, every time they make a turn, the robot must act happy, sad, or crazy.
+3. If they suggest the simple **drive 4 > drive 1 > turn left > act sad > drive 4 > drive 1**, challenge them to use less cards to complete this challenge.
 
-![Top right to bottom left](./figures/coder-ex5-2.jpg)
+![Top right to bottom left](./figures/coder-ex6-2.jpg)
 *The robot starts at the top right corner, pointing left, and reaches the bottom left corner using these commands.*
 
 ### Exercise 7: Getting mad about obstacles
