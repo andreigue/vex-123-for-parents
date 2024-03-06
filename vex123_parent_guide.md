@@ -111,9 +111,9 @@ Now that you're familiar with the robot's basic movements, let's focus on a 3x3 
 
 The goal is to program the robot to reach the top right tile, exploring different sequences of commands to navigate across the grid.
 
-- Have your child plan a path and then input the sequence using the forward and turn buttons to navigate the robot across the grid.
-- If you child succeeds in finding a path, challenge them to find other paths by experimenting with combinations of moves and turns.
-- After each try, remember to shake the robot to clear its memory and prepare it for a new set of commands.
+1. Have your child plan a path and then input the sequence using the forward and turn buttons to navigate the robot across the grid.
+2. If you child succeeds in finding a path, challenge them to find other paths by experimenting with combinations of moves and turns.
+3. After each try, remember to shake the robot to clear its memory and prepare it for a new set of commands.
 
 ![Robot moving](./figures/path.jpg)
 *Robot moving from one side of the field to the other with one possible set of commands that instruct it to get there.*
