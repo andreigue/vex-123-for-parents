@@ -74,10 +74,10 @@ Once fully charged, you can turn on the robot by pushing its wheels along a flat
 
 ## Programming Basics with Touch Buttons
 
-Programming with the VEX 123 Robot's touch buttons is a straightforward way to teach your child the basics of coding. Use the buttons on the top of the robot to input a sequence of commands. Pressing the central green Vex button will set the robot in motion, executing the commands in the order they were entered. Each button on the robot triggers a specific action:
+Programming with the VEX 123 Robot's touch buttons is a straightforward way to teach your child the basics of coding. Use the buttons on the top of the robot to input a sequence of commands. Pressing the central "VEX" button will set the robot in motion, executing the commands in the order they were entered. Each button on the robot triggers a specific action:
 
 - Move Forward: Directs the robot to move forward by one tile.
-- Left/Right: Rotates the robot 90 degrees to the left or right.
+- Left/Right: Rotates the robot 90 degrees to the left/right.
 - Sound: Triggers the robot to play a sound.
 - VEX (Start): Executes the programmed sequence of commands. Also used to turn off the robot by holding this button for 3 seconds.
 
