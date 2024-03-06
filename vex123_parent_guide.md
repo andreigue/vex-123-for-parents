@@ -183,7 +183,7 @@ And finally, try out the "drive until crash", "drive until object", and "drive u
 ![Sequence exercise 4-2](./figures/coder-ex5-2.jpg)
 *Sequence example for returning the robot to the bottom left starting point.*
 
-This is also a great time to practice stepping through your code. Instead of pressing on the green Start button, click on the orange Step button to guide you through the code, step by step, one command at a time. To go through the steps, press the Step button to move forward in the code, as will be indicated by the orangish-yellow light on the side of the command to be run next.
+This is also a great time to practice stepping through your code. Instead of launching the program with the green Start button, use the orange Step button to advance through the code one command at a time. Each press illuminates the next command with an orangish-yellow light, visually cueing the action to be executed. This is particularly useful if your child is puzzled by the robot's behavior, as it breaks down the actions into manageable steps.
 
 For an in depth guide about stepping, visit [Stepping Through a Project with the Coder](https://kb.vex.com/hc/en-us/articles/360056924531-Stepping-Through-a-Project-with-the-Coder).
 
