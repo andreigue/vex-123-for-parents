@@ -49,9 +49,7 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 
 ## Introduction to VEX 123
 
-Vex 123 is an interactive robotics kit designed to introduce the youngest learners, starting as early as 4 years old, to the foundational concepts of coding and robotics. As the most elementary offering in the Vex Robotics lineup, it's tailor-made for early childhood education, emphasizing hands-on play and exploration to spark interest in STEM (Science, Technology, Engineering, and Mathematics) fields from a preschool age.
-
-The Vex 123 Robot is an engaging robot that moves, lights up, and plays sounds through coding, making it an ideal tool to teach programming basics through interactive play, emphasizing hands-on learning without the need for a computer screen.
+Vex 123 is an interactive robotics kit designed to introduce the youngest learners, starting as early as 4 years old, to the foundational concepts of coding and robotics. As the most elementary offering in the Vex Robotics lineup, it's tailor-made for early childhood education, emphasizing hands-on play and exploration to spark interest in STEM (Science, Technology, Engineering, and Mathematics) fields from a preschool age. Plus, it offers a screen-free learning experience, making it an ideal way to engage with technology hands-on.
 
 ## Getting Started with Your VEX 123 Robot
 
