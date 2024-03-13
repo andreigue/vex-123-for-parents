@@ -207,16 +207,16 @@ When they've had enough of experimenting on their own, give them this first chal
 ![Bottom left to top right](./figures/ex6-2-turn-emotion.jpg)
 *The robot starts at the bottom left corner and reaches the top right corner using these commands.*
 
-### Exercise 7: Getting mad about obstacles
+### Exercise 7: Getting emotional about obstacles
 
-Building on previous experiences with obstacles, this exercise challenges your child to use the VEX Coder and its diverse cards to navigate around obstacles placed on the field. This time, your child will use the "drive until object" card to steer clear of obstacles and make the robot's journey more fun with sound (purple cards) and action (green cards).
+Building on previous experiences with obstacles, this exercise challenges your child to use the VEX Coder and its diverse cards to navigate obstacles on the field. This time, your child will use the "drive until object" card to steer clear of obstacles and make the robot's journey more fun with sound (purple cards) and action (green cards).
 
 1. Arrange multiple obstacles on the field to create a maze-like setup that the robot must navigate through to reach its destination.
 2. Guide your child in planning a route around the obstacles, ensuring the "drive until object" card is used at least once for obstacle detection and navigation.
 3. If there is still space on the Coder, encourage the addition of sound and action cards to the sequence, turning the task into a lively and engaging journey for the robot.
 
 ![Bottom left to top right](./figures/ex7-maze.jpg)
-*The robot ready to navigate a maze-like setup with obstacles on the field.*
+*The robot is ready to navigate a maze-like setup with obstacles on the field.*
 
 ## Introducing Conditional Logic: If Statements
 
