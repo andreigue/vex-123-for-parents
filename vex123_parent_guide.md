@@ -204,8 +204,8 @@ When they've had enough with experimenting on their own, give them this first ch
 2. Ask your child to find different ways of getting to the top right tile. However, every time they make a turn, the robot must act happy, sad, or crazy afterwards.
 3. If they suggest the simple **drive 4 > drive 1 > turn left > act sad > drive 4 > drive 1**, challenge them to use less cards to complete this challenge, as shown below.
 
-![Top right to bottom left](./figures/ex6-2-turn-emotion.jpg)
-*The robot starts at the top right corner, pointing left, and reaches the bottom left corner using these commands.*
+![Bottom left to top right](./figures/ex6-2-turn-emotion.jpg)
+*The robot starts at the bottom left corner, and reaches the top right corner using these commands.*
 
 ### Exercise 7: Getting mad about obstacles
 
@@ -252,11 +252,6 @@ Try running this code with and without an object in the robot's path to see the 
 In this exercise, we'll create a scenario where the robot moves forward and reacts differently to colored objects it encounters. The robot will turn left if it detects a blue object, turn right for red, and play a doorbell sound if it sees green.
 
 ![Left or right](./figures/ex9-color-decision.jpg)
-*The robot moves forward two tiles. If it finds an object, it rings the doorbell, turns, and moves away. Then, it acts happy, whether or not there was an object.*
-
-Here is the corresponding code for this program.
-
-![Sequence exercise 9](./figures/coder-ex9?????8?????.jpg)
 *The robot moves forward two tiles. If it finds an object, it rings the doorbell, turns, and moves away. Then, it acts happy, whether or not there was an object.*
 
 ### Continuing Conditional Logic: Else Statement
