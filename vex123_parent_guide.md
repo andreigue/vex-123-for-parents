@@ -193,19 +193,19 @@ Now, let's add more variety to your robot's movements by incorporating other typ
 
 To explore the full range of Coder cards, excluding the orange and red cards for now, visit the [VEX Coder Card Reference Guide](https://kb.vex.com/hc/en-us/articles/360055264691-VEX-Coder-Card-Reference-Guide).
 
-Have your child play around with all these cards, in whatever order they wish. Make sure they write some programs using all types of cards. This could take them anywhere from a couple of minutes, to hours of fun.
+Have your child play around with all these cards in whatever order they wish. Make sure they write some programs using all types of cards. This could take them anywhere from a few minutes to hours of fun.
 
 ![Sequence exercise 6](./figures/ex6-crash.jpg)
 *Example program of the robot hitting a wall and making it dramatic.*
 
-When they've had enough with experimenting on their own, give them this first challenge:
+When they've had enough of experimenting on their own, give them this first challenge:
 
 1. Place the robot on the bottom left tile of the field.
 2. Ask your child to find different ways of getting to the top right tile. However, every time they make a turn, the robot must act happy, sad, or crazy afterwards.
-3. If they suggest the simple **drive 4 > drive 1 > turn left > act sad > drive 4 > drive 1**, challenge them to use less cards to complete this challenge, as shown below.
+3. If they suggest the simple **drive 4 > drive 1 > turn left > act sad > drive 4 > drive 1**, challenge them to use fewer cards to complete this challenge, as shown below.
 
 ![Bottom left to top right](./figures/ex6-2-turn-emotion.jpg)
-*The robot starts at the bottom left corner, and reaches the top right corner using these commands.*
+*The robot starts at the bottom left corner and reaches the top right corner using these commands.*
 
 ### Exercise 7: Getting mad about obstacles
 
