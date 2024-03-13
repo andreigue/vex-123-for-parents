@@ -173,14 +173,14 @@ In this exercise, you'll use the **blue movement cards** to direct the robot acr
 
 > Please note that the first card must always be the red "when start 123" card.
 
-![Sequence exercise 5](./figures/coder-ex5.jpg)
+![Sequence exercise 5](./figures/ex5-straight-line.jpg)
 *Sequence illustrating a straight-line path using movement cards.*
 
 Next, try adding some rotations: "turn left", "turn right", "turn around" and "turn random". Allow them at least a few minutes to play around the with current set of cards, and to try out longer and longer sequences.
 
 And finally, try out the "drive until crash", "drive until object", and "drive until line" cards. See what they do. Programming is all about experimenting!
 
-![Sequence exercise 5-2](./figures/coder-ex5-2.jpg)
+![Sequence exercise 5-2](./figures/ex5-2-square-path.jpg)
 *Sequence example for returning the robot to the bottom left starting point.*
 
 This is also a great time to practice stepping through your code. Instead of launching the program with the green Start button, use the orange Step button to advance through the code one command at a time. Each press illuminates the next command with an orangish-yellow light, visually cueing the action to be executed. This is particularly useful if your child is puzzled by the robot's behavior, as it breaks down the actions into manageable steps.
@@ -195,16 +195,16 @@ To explore the full range of Coder cards, excluding the orange and red cards for
 
 Have your child play around with all these cards, in whatever order they wish. Make sure they write some programs using all types of cards. This could take them anywhere from a couple of minutes, to hours of fun.
 
-![Sequence exercise 6](./figures/coder-ex6.jpg)
+![Sequence exercise 6](./figures/ex6-crash.jpg)
 *Example program of the robot hitting a wall and making it dramatic.*
 
 When they've had enough with experimenting on their own, give them this first challenge:
 
-1. Place the robot on the top right tile of the field.
-2. Ask your child to find different ways of getting to the bottom left tile. However, every time they make a turn, the robot must act happy, sad, or crazy.
-3. If they suggest the simple **drive 4 > drive 1 > turn left > act sad > drive 4 > drive 1**, challenge them to use less cards to complete this challenge.
+1. Place the robot on the bottom left tile of the field.
+2. Ask your child to find different ways of getting to the top right tile. However, every time they make a turn, the robot must act happy, sad, or crazy afterwards.
+3. If they suggest the simple **drive 4 > drive 1 > turn left > act sad > drive 4 > drive 1**, challenge them to use less cards to complete this challenge, as shown below.
 
-![Top right to bottom left](./figures/coder-ex6-2.jpg)
+![Top right to bottom left](./figures/ex6-2-turn-emotion.jpg)
 *The robot starts at the top right corner, pointing left, and reaches the bottom left corner using these commands.*
 
 ### Exercise 7: Getting mad about obstacles
@@ -215,11 +215,8 @@ Building on previous experiences with obstacles, this exercise challenges your c
 2. Guide your child in planning a route around the obstacles, ensuring the "drive until object" card is used at least once for obstacle detection and navigation.
 3. If there is still space on the Coder, encourage the addition of sound and action cards to the sequence, turning the task into a lively and engaging journey for the robot.
 
-![Bottom left to top right](./figures/obstacle3.jpg)
+![Bottom left to top right](./figures/ex7-maze.jpg)
 *The robot ready to navigate a maze-like setup with obstacles on the field.*
-
-![SEQUENCE EXERCISE 7](./figures/coder-ex7???9????.jpg)
-*Code sequence guiding the robot to navigate around obstacles and reach its destination.*
 
 ## Introducing Conditional Logic: If Statements
 
@@ -235,17 +232,17 @@ In this exercise, we'll explore how "if" statements work with the VEX 123 Coder.
 
 Let's start simple. In the first example, we program the robot to move forward two tiles. If it sees an object in front of it, it will play a sound, like a doorbell.
 
-![Sequence exercise 8](./figures/coder-ex8?????1?????.jpg)
-*The robot moves forward two tiles. If it finds an object, it plays a doorbell sound.*
+![Sequence exercise 8](./figures/ex8-doorbell.jpg)
+*The robot moves forward by one tile. If it sees an object, it plays a doorbell sound.*
 
 You might think the robot only carries out the action right after detecting an object, like playing a sound, but that's not the case. By adding more actions after the sound command, the robot will continue to perform each of them in sequence if it encounters an object.
 
-![Sequence exercise 8-2](./figures/coder-ex8-1?????2?????.jpg)
-*After moving forward two tiles and finding an object, the robot rings the doorbell, turns around, and moves away.*
+![Sequence exercise 8-2](./figures/ex8-2-doorbell-run.jpg)
+*After moving forward by one tile and finding an object, the robot rings the doorbell, turns and moves away.*
 
 To have the robot express an emotion such as acting sad regardless of the outcome of the "if" condition, we incorporate the "end if" card. This card indicates to the Coder that the conditional sequence established by the "if" card has finished. As a result, any actions placed after the "end if" card, like "act sad," will be executed irrespective of whether the initial "if" condition was met or not.
 
-![Sequence exercise 8-3](./figures/coder-ex8-2?????3?????.jpg)
+![Sequence exercise 8-3](./figures/ex8-3-doorbell-happy.jpg)
 *The robot moves forward two tiles. If it finds an object, it rings the doorbell, turns, and moves away. Then, it acts happy, whether or not there was an object.*
 
 Try running this code with and without an object in the robot's path to see the difference in behavior.
@@ -254,7 +251,7 @@ Try running this code with and without an object in the robot's path to see the 
 
 In this exercise, we'll create a scenario where the robot moves forward and reacts differently to colored objects it encounters. The robot will turn left if it detects a blue object, turn right for red, and play a doorbell sound if it sees green.
 
-![Left or right](./figures/color-decision.jpg)
+![Left or right](./figures/ex9-color-decision.jpg)
 *The robot moves forward two tiles. If it finds an object, it rings the doorbell, turns, and moves away. Then, it acts happy, whether or not there was an object.*
 
 Here is the corresponding code for this program.
@@ -270,12 +267,12 @@ After mastering the "if" statement, the next step is to introduce the "else" con
 
 In this exercise, we'll set up a simple scenario to practice using the "if" and "else" concepts together. The task is to program the robot to move forward by one tile if no object is detected in its path. However, if there is an obstacle, the robot should play a doorbell sound instead.
 
-![Sequence exercise 10](./figures/?coder-ex10????6?.jpg)
+![Sequence exercise 10](./figures/ex10-if-else.jpg)
 *The robot moves forward if the path is clear, or sounds a doorbell if an obstacle is detected.*
 
 To ensure the robot acts happy after completing either the "if" or "else" actions, we use the "end if" card to close the conditional sequence. This signals to the Coder that both the "if" condition and the alternative "else" path have been addressed. Following the "end if" card with the "act happy" action guarantees that this cheerful behavior is displayed, no matter which path was taken in the sequence.
 
-![Sequence exercise 10-2](./figures/coder-ex10-1?????7?.jpg)
+![Sequence exercise 10-2](./figures/ex10-2-if-endif.jpg)
 *The robot moves forward if the path is clear, or sounds a doorbell if an obstacle is detected. Either way, the robot will act happy afterwards.*
 
 Please note that the "end if" card plays a crucial role in defining the boundaries of your conditional statements. Without an "end if" to mark the conclusion of an "else" sequence, the Coder interprets all subsequent actions as part of the "else" condition.
@@ -286,26 +283,29 @@ Loops are a fundamental concept in programming that allow certain sections of co
 
 ### Exercise 11: Non-Stop Merry-Go-Round
 
-This exercise introduces the concept of looping by creating a simple, circular pattern that the robot will endlessly follow, much like a merry-go-round.
+In this exercise, we'll use the power of loops to create continuous, circular motion for our robot, much like a merry-go-round. But first, let's ease into the concept with "linear" merry-go-round, will continuously move back and forth, in a straight line, between two obstacles.
 
-- Start by programming the robot with a straightforward sequence: move forward and then turn left. This pattern will make the robot trace a square path.
-- Insert the "Go to start" card at the end of this sequence to initiate the loop, causing the robot to continuously navigate in a square, mimicking a merry-go-round motion.
+- Begin by programming the robot to "drive until object," simulating forward motion until it encounters an obstacle.
+- Once it reaches the obstacle, it will "turn around" to face the opposite direction.
+- Add the "Go to start" card at the end of the sequence. The robot will now keep repeating this back-and-forth motion, just like a pendulum swinging between two points.
 
-![Sequence exercise 11](./figures/drive-circle.jpg)
+![Back and forth](./figures/ex12-straight-path.jpg)
+*Robot moving back and forth between two obstacles.*
+
+Now, let's expand this concept to create a continuous circular path, truly embodying the merry-go-round motion.
+
+- Start by programming the robot with a straightforward sequence: move forward (by 1 or 2 squares) and turn left. This pattern will make the robot trace one side of a square.
+- Keep the "Go to start" card at the end of this new sequence. As the robot follows this loop, it will continually move forward and turn, tracing a square path that mimics a circular, merry-go-round pattern.
+
+![Sequence exercise 11](./figures/ex11-drive-circle.jpg)
 *The robot will drive forward, turn left, and repeat this forever.*
-
-![Sequence exercise 11-2](./figures/coder-ex10?????12??.jpg)
-*The robot moves forward if the path is clear, or sounds a doorbell if an obstacle is detected. Either way, the robot will act happy afterwards.*
 
 ### Exercise 12: The Endless Bump-a-thon
 
 In this exercise, we're going to transform a previous activity into an endless loop of discovery using the "go to start" card. The robot will continuously drive forward until it crashes into a wall, at which point it will emit a crash sound and display a sad action. Afterward, it will randomly turn and repeat the process, creating a never-ending cycle of bump-and-turn adventures. To stop this infinite loop, simply press the red square button on the VEX Coder.
 
-![Random crashes](./figures/path-random.jpg)
-*One possible trajectory of the robots random movements.*
-
-![Random crashes code](./figures/???)
-*Infinite loop code using the "turn random" card.*
+![Random crashes](./figures/ex12-2-random-path.jpg)
+*One possible trajectory of the infinite loop of random movements.*
 
 ## Combining What We've Learned
 
@@ -319,13 +319,10 @@ Now we will try working with multiple "if" cards.
 2. Guide your child to create a sequence using "if color detected" cards for each color, assigning specific actions for each one, such as turning or making a sound, and ending each sequence with an "end if" card.
 3. Watch how the robot identifies each color and performs the corresponding actions, showcasing its ability to make decisions based on color.
 
-![Sequence exercise 14](./figures/colored-obstacles.jpg)
+![Sequence exercise 14](./figures/ex13-colored-obstacles.jpg)
 *Sequence checking for all 3 colors, and having the robot act different depending on the color in front.*
 
-![Sequence exercise 14](./figures/coder-exxx?????5?????.jpg)
-*The robot moves left, right, or stops, depending on what color is in front.*
-
-
+Now what what if the robot encounters neither of the colors? Well then it'll...
 
 ## Final Thoughts
 
