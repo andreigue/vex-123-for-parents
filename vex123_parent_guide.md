@@ -285,6 +285,8 @@ To ensure the robot acts happy after completing either the "if" or "else" action
 
 Please note that the "end if" card plays a crucial role in defining the boundaries of your conditional statements. Without an "end if" to mark the conclusion of an "else" sequence, the Coder interprets all subsequent actions as part of the "else" condition, just like it would for an "if" condition.
 
+> **To Recap:** We've covered the use of all the orange cards and how to conclude an "if" or "else" section. It's important to remember that an "else" should directly follow an "if" section, and an "end if" can be used to close out either an "if" or an "else" section.
+
 ## Exploring Loops
 
 Loops are a fundamental concept in programming that allow certain sections of code to be repeated multiple times. This can simplify repetitive tasks into manageable actions. In the context of the VEX 123 Coder, the "Go to start" card is instrumental in creating loops. When the sequence reaches this card, it circles back to the beginning, allowing the robot to repeat its actions indefinitely or until a specific condition is met.
