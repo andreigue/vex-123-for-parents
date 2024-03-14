@@ -308,12 +308,14 @@ Now, let's expand this concept to create a continuous circular path embodying th
 2. Next, the robot should turn left. This pattern will make the robot trace one side of a square and be ready to trace the next side.
 3. Keep the "Go to start" card at the end of this new sequence. As the robot follows this loop, it will continually move forward and turn, tracing a square path that mimics a circular, merry-go-round pattern.
 
+Once you've seen enough, stop the loop by pressing on the red square button on the VEX Coder.
+
 ![Sequence exercise 11](./figures/ex11-drive-circle.jpg)
 *The robot will drive forward, turn left, and repeat this forever, thus tracing a square path.*
 
 ### Exercise 12: The Endless Bump-a-thon
 
-In this exercise, we're going to transform a previous activity into an endless loop of discovery using the "go to start" card. The robot will continuously drive forward until it crashes into a wall, at which point it will emit a crash sound and display a sad action. Afterward, it will randomly turn and repeat the process, creating a never-ending cycle of bump-and-turn adventures. To stop this infinite loop, simply press the red square button on the VEX Coder.
+This exercise promises a lot of fun, and it's a chance for you, the parent, to actively guide your child through the programming. The aim is to program the robot to move straight until it bumps into an obstacle, react with a crash sound and some action (such as acting sad), and then make a random turn to continue and repeat its journey. Help your child think about how to use the "Go to start" card for the loop, and in case they have trouble, help them find the blue "turn random" card.
 
 ![Random crashes](./figures/ex12-2-random-path.jpg)
 *One possible trajectory of the infinite loop of random movements.*
