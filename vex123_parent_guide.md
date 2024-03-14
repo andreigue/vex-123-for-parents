@@ -289,7 +289,7 @@ Please note that the "end if" card plays a crucial role in defining the boundari
 
 ## Exploring Loops
 
-Loops are a fundamental concept in programming that allow certain sections of code to be repeated multiple times. This can simplify repetitive tasks into manageable actions. In the context of the VEX 123 Coder, the "Go to start" card is instrumental in creating loops. When the sequence reaches this card, it circles back to the beginning, allowing the robot to repeat its actions indefinitely or until a specific condition is met.
+A loop is a fundamental programming concept that allows certain code sections to be repeated multiple times. This means we can repeat lines of code without placing them again onto the Coder. In the context of the VEX 123 Coder, the "Go to start" card is instrumental in creating loops. When the sequence reaches this card, it circles back to the beginning, allowing the robot to repeat its actions indefinitely.
 
 ### Exercise 11: Non-Stop Merry-Go-Round
 
