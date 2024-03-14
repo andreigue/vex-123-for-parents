@@ -228,7 +228,7 @@ For more details on the Coder cards, check out [the VEX Coder Card Reference Gui
 
 ### Exercise 8: If this, then that
 
-In this exercise, we'll explore how "if" statements work with the VEX 123 Coder. Think of an "if" statement as a decision point: if the condition is met (like detecting an object), the robot will do something. If not, it skips over that part and continues on.
+In this exercise, we'll explore how "if" statements work. Think of an "if" statement as a decision point: if the condition is met (like detecting an object), the robot will do something. If not, it skips over that part and continues on.
 
 Let's start simple. In the first example, we program the robot to move forward two tiles. If it sees an object in front of it, it will play a sound, like a doorbell.
 
@@ -242,21 +242,30 @@ You might think the robot only performs the action right after detecting an obje
 
 And what happens if the robot does not encounter an object in front of it? Well, it will skip the lines after the "if", in this case, **play doorbell > turn left > drive 2 > turn around**.
 
-Now, what if you want the robot to execute something regardless of whether or not the "if" condition was satisfied. For example, at the end of it all, you want the robot to act happy, regardless of whether there is an object or not. To do so, we must incorporate the "end if" card. This card indicates to the Coder that the conditional sequence established by the "if" card has finished. As a result, any actions placed after the "end if" card, like "act sad," will be executed irrespective of whether the initial "if" condition was met or not.
+Now, what if you want the robot to execute something regardless of whether or not the "if" condition was satisfied. For example, at the end of it all, you want the robot to act happy, regardless of whether there it detected an object or not. To do so, we must incorporate the "end if" card. This card indicates to the Coder that the conditional sequence established by the "if" card has finished. Essentially, it closes off the conditional section. As a result, any actions placed after the "end if" card, such as "act happy," will be carried out irrespective of whether the initial "if" condition was met or not.
 
 ![Sequence exercise 8-3](./figures/ex8-3-doorbell-happy.jpg)
 *The robot moves forward two tiles. If it finds an object, it rings the doorbell, turns, and moves away. Then, it acts happy, whether or not there was an object.*
 
-You can run this code with and without an object in the robot's path to see the difference in behaviour.
+You can run this code with and without an object in the robot's path to see the difference in behavior.
 
-> **To conclude:** The "if" statement is as far-reaching as you make it to be. Until now, we've only seen that the way to limit the "if" body is to add an "end if" card. In the following sections, though, we will see more ways of limiting the "if" body.
+> **To Recap:** The reach of an "if" statement is up to you and can extend as needed. Until this point, we've contained the "if" block with an "end if" card. Moving forward, we'll discover other techniques to set the limits of the "if" section.
 
-### Exercise 9: The more ifs the better
+### Exercise 9: Color-Coded Decisions
 
-In this exercise, we'll create a scenario where the robot moves forward and reacts differently to colored objects it encounters. The robot will turn left if it detects a blue object, turn right for red, and play a doorbell sound if it sees green.
+We've seen how an "if" "code block" could be limited with the "end if" card. Another way to limit it is using another "if" condition.
+
+In this exercise, we're going to program the robot to move forward and respond uniquely to different colored objects with the help of multiple "if" statements.
+
+1. Start with moving the robot forward.
+2. If the robot encounters a blue object, it will turn left.
+3. If the robot encounters a red object, it will turn right.
+4. And if it detects green, it will simply play a doorbell sound.
 
 ![Left or right](./figures/ex9-color-decision.jpg)
-*The robot moves forward two tiles. If it finds an object, it rings the doorbell, turns, and moves away. Then, it acts happy, whether or not there was an object.*
+*The robot moves forward two tiles. Depending on the colored object that it encounters, it will perform different actions.*
+
+> **To Recap:** So far, we've seen that we can "close off" an "if" section with either an "end if" or another "if" statement.
 
 ### Continuing Conditional Logic: Else Statement
 
