@@ -269,21 +269,21 @@ In this exercise, we're going to program the robot to move forward and respond u
 
 ### Continuing Conditional Logic: Else Statement
 
-After mastering the "if" statement, the next step is to introduce the "else" concept, a fundamental part of conditional logic in programming. The "else" statement provides an alternative path for the program to follow if the "if" condition isn't met. In other words, it tells the robot, "If the condition isn't true, then do something else instead."
+Once your child understands the workings of the "if" condition, the next step is introducing the "else" statement, a fundamental part of conditional logic in programming. The orange "else" card provides an alternative path for the program to follow if the "if" condition isn't met. The "else" must always follow an "if". Think of it this way: "If the condition is met, do A; otherwise (else), do B".
 
 ### Exercise 10: To Ring or Not to Ring
 
 In this exercise, we'll set up a simple scenario to practice using the "if" and "else" concepts together. The task is to program the robot to move forward by one tile if no object is detected in its path. However, if there is an obstacle, the robot should play a doorbell sound instead.
 
 ![Sequence exercise 10](./figures/ex10-if-else.jpg)
-*The robot moves forward if the path is clear, or sounds a doorbell if an obstacle is detected.*
+*The robot moves forward if the path is clear or sounds a doorbell if an obstacle is detected.*
 
-To ensure the robot acts happy after completing either the "if" or "else" actions, we use the "end if" card to close the conditional sequence. This signals to the Coder that both the "if" condition and the alternative "else" path have been addressed. Following the "end if" card with the "act happy" action guarantees that this cheerful behavior is displayed, no matter which path was taken in the sequence.
+To ensure the robot acts happy after completing either the "if" or "else" actions, we use the "end if" card to close the conditional sequence. This signals to the Coder that both the "if" condition and the alternative "else" path have been addressed. Following the "end if" card with the "act happy" action guarantees this cheerful behavior is displayed, regardless of which path was taken in the sequence.
 
 ![Sequence exercise 10-2](./figures/ex10-2-if-endif.jpg)
-*The robot moves forward if the path is clear, or sounds a doorbell if an obstacle is detected. Either way, the robot will act happy afterwards.*
+*The robot moves forward if the path is clear or sounds a doorbell if an obstacle is detected. Either way, the robot will act happy afterwards.*
 
-Please note that the "end if" card plays a crucial role in defining the boundaries of your conditional statements. Without an "end if" to mark the conclusion of an "else" sequence, the Coder interprets all subsequent actions as part of the "else" condition.
+Please note that the "end if" card plays a crucial role in defining the boundaries of your conditional statements. Without an "end if" to mark the conclusion of an "else" sequence, the Coder interprets all subsequent actions as part of the "else" condition, just like it would for an "if" condition.
 
 ## Exploring Loops
 
