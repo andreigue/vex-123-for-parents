@@ -209,7 +209,7 @@ When they've had enough of experimenting on their own, give them this first chal
 
 ### Exercise 7: Getting emotional about obstacles
 
-Building on previous experiences with obstacles, this exercise challenges your child to use the VEX Coder and its diverse cards to navigate obstacles on the field. This time, your child will use the "drive until object" card to steer clear of obstacles and make the robot's journey more fun with sound (purple cards) and action (green cards).
+Building on previous experiences with obstacles, this exercise challenges your child to use the VEX Coder and its diverse cards to navigate around obstacles on the field. This time, your child will use the "drive until object" card to steer clear of obstacles and make the robot's journey more fun with sound (purple cards) and action (green cards).
 
 1. Arrange multiple obstacles on the field to create a maze-like setup that the robot must navigate through to reach its destination.
 2. Guide your child in planning a route around the obstacles, ensuring the "drive until object" card is used at least once for obstacle detection and navigation.
