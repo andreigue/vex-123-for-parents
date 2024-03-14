@@ -213,7 +213,7 @@ Building on previous experiences with obstacles, this exercise challenges your c
 
 1. Arrange multiple obstacles on the field to create a maze-like setup that the robot must navigate through to reach its destination.
 2. Guide your child in planning a route around the obstacles, ensuring the "drive until object" card is used at least once for obstacle detection and navigation.
-3. If there is still space on the Coder, encourage the addition of sound and action cards to the sequence, turning the task into a lively and engaging journey for the robot.
+3. If there is still space on the Coder, encourage the addition of sound and/or action cards to the sequence whenever the robot encounters an obstacle that is not the edge of the VEX field itself.
 
 ![Bottom left to top right](./figures/ex7-maze.jpg)
 *The robot is ready to navigate a maze-like setup with obstacles on the field.*
