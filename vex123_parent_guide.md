@@ -289,23 +289,24 @@ Please note that the "end if" card plays a crucial role in defining the boundari
 
 ## Exploring Loops
 
-A loop is a fundamental programming concept that allows certain code sections to be repeated multiple times. This means we can repeat lines of code without placing them again onto the Coder. In the context of the VEX 123 Coder, the "Go to start" card is instrumental in creating loops. When the sequence reaches this card, it circles back to the beginning, allowing the robot to repeat its actions indefinitely.
+A loop is a fundamental programming concept that allows us to repeat certain sections of code multiple times without having to rewrite them. This is particularly useful in robotics, as it allows a robot to perform continuous actions without a lengthy code. With the VEX 123 Coder, the 'Go to start' card plays a crucial role in creating these loops. Once the programmed sequence reaches this card, it loops back to the beginning - just as the name suggests - enabling the robot to carry out its instructions indefinitely.
 
 ### Exercise 11: Non-Stop Merry-Go-Round
 
 In this exercise, we'll use the power of loops to create continuous, circular motion for our robot, much like a merry-go-round. But first, let's ease into the concept of a "linear" merry-go-round, which will continuously move back and forth between two obstacles in a straight line.
 
-- Begin by programming the robot to "drive until object," simulating forward motion until encountering an obstacle.
-- Once it reaches the obstacle, it will "turn around" to face the opposite direction.
-- Add the "Go to start" card at the end of the sequence. The robot will now keep repeating this back-and-forth motion, just like a pendulum swinging between two points.
+1. Begin by programming the robot to "drive until object".
+2. Once it reaches the obstacle, have it "turn around" to face the opposite direction.
+3. Add the "Go to start" card at the end of the sequence. The robot will now keep repeating this back-and-forth motion, just like a pendulum swinging between two points.
 
 ![Back and forth](./figures/ex12-straight-path.jpg)
 *Robot moving back and forth between two obstacles.*
 
 Now, let's expand this concept to create a continuous circular path embodying the merry-go-round motion.
 
-- Start by programming the robot with a straightforward sequence: move forward (by 1 or 2 squares) and turn left. This pattern will make the robot trace one side of a square.
-- Keep the "Go to start" card at the end of this new sequence. As the robot follows this loop, it will continually move forward and turn, tracing a square path that mimics a circular, merry-go-round pattern.
+1. Start by programming the robot to move forward (by 1 or 2 squares).
+2. Next, the robot should turn left. This pattern will make the robot trace one side of a square and be ready to trace the next side.
+3. Keep the "Go to start" card at the end of this new sequence. As the robot follows this loop, it will continually move forward and turn, tracing a square path that mimics a circular, merry-go-round pattern.
 
 ![Sequence exercise 11](./figures/ex11-drive-circle.jpg)
 *The robot will drive forward, turn left, and repeat this forever, thus tracing a square path.*
