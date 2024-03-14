@@ -224,28 +224,32 @@ Conditional logic, often represented by "if" statements, is a fundamental concep
 
 Each "if" card corresponds to a specific condition, such as detecting an object, identifying a color, or sensing a button press. When the robot encounters the specified condition, it will execute the command associated with that "if" card.
 
-For more details on the Coder cards, [check out this link](https://kb.vex.com/hc/en-us/articles/360055264691-VEX-Coder-Card-Reference-Guide).
+For more details on the Coder cards, check out [the VEX Coder Card Reference Guide](https://kb.vex.com/hc/en-us/articles/360055264691-VEX-Coder-Card-Reference-Guide).
 
-### Exercise 8: If this then that
+### Exercise 8: If this, then that
 
-In this exercise, we'll explore how "if" statements work with the VEX 123 Coder. Think of an "if" statement like a decision point: if the condition is true (like detecting an object), the robot will do something special. If not, it skips over that part and continues on.
+In this exercise, we'll explore how "if" statements work with the VEX 123 Coder. Think of an "if" statement as a decision point: if the condition is met (like detecting an object), the robot will do something. If not, it skips over that part and continues on.
 
 Let's start simple. In the first example, we program the robot to move forward two tiles. If it sees an object in front of it, it will play a sound, like a doorbell.
 
 ![Sequence exercise 8](./figures/ex8-doorbell.jpg)
 *The robot moves forward by one tile. If it sees an object, it plays a doorbell sound.*
 
-You might think the robot only carries out the action right after detecting an object, like playing a sound, but that's not the case. By adding more actions after the sound command, the robot will continue to perform each of them in sequence if it encounters an object.
+You might think the robot only performs the action right after detecting an object, like playing a sound, but that's not the case. By adding more actions after the sound command, the robot will continue to perform each of them in sequence if it encounters an object.
 
 ![Sequence exercise 8-2](./figures/ex8-2-doorbell-run.jpg)
 *After moving forward by one tile and finding an object, the robot rings the doorbell, turns and moves away.*
 
-To have the robot express an emotion such as acting sad regardless of the outcome of the "if" condition, we incorporate the "end if" card. This card indicates to the Coder that the conditional sequence established by the "if" card has finished. As a result, any actions placed after the "end if" card, like "act sad," will be executed irrespective of whether the initial "if" condition was met or not.
+And what happens if the robot does not encounter an object in front of it? Well, it will skip the lines after the "if", in this case, **play doorbell > turn left > drive 2 > turn around**.
+
+Now, what if you want the robot to execute something regardless of whether or not the "if" condition was satisfied. For example, at the end of it all, you want the robot to act happy, regardless of whether there is an object or not. To do so, we must incorporate the "end if" card. This card indicates to the Coder that the conditional sequence established by the "if" card has finished. As a result, any actions placed after the "end if" card, like "act sad," will be executed irrespective of whether the initial "if" condition was met or not.
 
 ![Sequence exercise 8-3](./figures/ex8-3-doorbell-happy.jpg)
 *The robot moves forward two tiles. If it finds an object, it rings the doorbell, turns, and moves away. Then, it acts happy, whether or not there was an object.*
 
-Try running this code with and without an object in the robot's path to see the difference in behavior.
+You can run this code with and without an object in the robot's path to see the difference in behaviour.
+
+> **To conclude:** The "if" statement is as far-reaching as you make it to be. Until now, we've only seen that the way to limit the "if" body is to add an "end if" card. In the following sections, though, we will see more ways of limiting the "if" body.
 
 ### Exercise 9: The more ifs the better
 
