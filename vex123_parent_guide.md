@@ -18,32 +18,31 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 - [Exercise 1: First steps](#exercise-1-first-steps)
 - [Exercise 2: Sequence of moves](#exercise-2-sequence-of-moves)
 - [Exercise 3: Predicting the movement](#exercise-3-predicting-the-movement)
+- [Exercise 4: Avoiding obstacles](#exercise-4-avoiding-obstacles)
 
 [Coding with the VEX 123 Coder](#coding-with-the-vex-123-coder)
 
-- [Exercise 4: Avoiding obstacles](#exercise-4-avoiding-obstacles)
 - [Exercise 5: Basic movements with cards](#exercise-5-basic-movements-with-cards)
 - [Exercise 6: Combining different cards](#exercise-6-combining-different-cards)
-- [Exercise 7: Getting mad about obstacles](#exercise-7-getting-mad-about-obstacles)
+- [Exercise 7: Getting emotional about obstacles](#exercise-7-getting-emotional-about-obstacles)
 
 [Introducing Conditional Logic: If Statements](#introducing-conditional-logic-if-statements)
 
 - [Exercise 8: If this then that](#exercise-8-if-this-then-that)
-- [Exercise 9: The more ifs the better](#exercise-9-the-more-ifs-the-better)
+- [Exercise 9: Color-coded decisions](#exercise-9-color-coded-decisions)
 
 [Continuing Conditional Logic: Else Statement](#continuing-conditional-logic-else-statement)
 
-- [Exercise 10: To Ring or Not to Ring](#exercise-10-to-ring-or-not-to-ring)
+- [Exercise 10: To ring or not to ring](#exercise-10-to-ring-or-not-to-ring)
 
 [Exploring Loops](#exploring-loops)
 
-- [Exercise 11: Non-Stop Merry-Go-Round](#exercise-11-non-stop-merry-go-round)
-- [Exercise 12: The Endless Bump-a-thon](#exercise-12-the-endless-bump-a-thon)
+- [Exercise 11: Non-stop merry-go-round](#exercise-11-non-stop-merry-go-round)
+- [Exercise 12: The endless bump-a-thon](#exercise-12-the-endless-bump-a-thon)
 
 [Combining What We've Learned](#combining-what-weve-learned)
 
 - [Exercise 13: Checking for color](#exercise-13-checking-for-color)
-- Exercise 14: If/else + loop combination
 
 [Final Thoughts](#final-thoughts)
 
@@ -251,7 +250,7 @@ You can run this code with and without an object in the robot's path to see the 
 
 > **To Recap:** The reach of an "if" statement is up to you and can extend as needed. Until this point, we've contained the "if" block with an "end if" card. Moving forward, we'll discover other techniques to set the limits of the "if" section.
 
-### Exercise 9: Color-Coded Decisions
+### Exercise 9: Color-coded decisions
 
 We've seen how an "if" "code block" could be limited with the "end if" card. Another way to limit it is using another "if" condition.
 
@@ -267,11 +266,11 @@ In this exercise, we're going to program the robot to move forward and respond u
 
 > **To Recap:** So far, we've seen that we can "close off" an "if" section with either an "end if" or another "if" statement.
 
-### Continuing Conditional Logic: Else Statement
+## Continuing Conditional Logic: Else Statement
 
 Once your child understands the workings of the "if" condition, the next step is introducing the "else" statement, a fundamental part of conditional logic in programming. The orange "else" card provides an alternative path for the program to follow if the "if" condition isn't met. The "else" must always follow an "if". Think of it this way: "If the condition is met, do A; otherwise (else), do B".
 
-### Exercise 10: To Ring or Not to Ring
+### Exercise 10: To ring or not to ring
 
 In this exercise, we'll set up a simple scenario to practice using the "if" and "else" concepts together. The task is to program the robot to move forward by one tile if no object is detected in its path. However, if there is an obstacle, the robot should play a doorbell sound instead.
 
@@ -291,7 +290,7 @@ Please note that the "end if" card plays a crucial role in defining the boundari
 
 A loop is a fundamental programming concept that allows us to repeat certain sections of code multiple times without having to rewrite them. This is particularly useful in robotics, as it allows a robot to perform continuous actions without a lengthy code. With the VEX 123 Coder, the 'Go to start' card plays a crucial role in creating these loops. Once the programmed sequence reaches this card, it loops back to the beginning - just as the name suggests - enabling the robot to carry out its instructions indefinitely.
 
-### Exercise 11: Non-Stop Merry-Go-Round
+### Exercise 11: Non-stop merry-go-round
 
 In this exercise, we'll use the power of loops to create continuous, circular motion for our robot, much like a merry-go-round. But first, let's ease into the concept of a "linear" merry-go-round, which will continuously move back and forth between two obstacles in a straight line.
 
@@ -313,7 +312,7 @@ Once you've seen enough, stop the loop by pressing on the red square button on t
 ![Sequence exercise 11](./figures/ex11-drive-circle.jpg)
 *The robot will drive forward, turn left, and repeat this forever, thus tracing a square path.*
 
-### Exercise 12: The Endless Bump-a-thon
+### Exercise 12: The endless bump-a-thon
 
 This exercise promises a lot of fun, and it's a chance for you, the parent, to actively guide your child through the programming. The aim is to program the robot to move straight until it bumps into an obstacle, react with a crash sound and some action (such as acting sad), and then make a random turn to continue and repeat its journey. Help your child think about how to use the "Go to start" card for the loop, and in case they have trouble, help them find the blue "turn random" card.
 
