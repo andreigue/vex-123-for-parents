@@ -338,4 +338,8 @@ Now what what if the robot encounters neither of the colors? Well then it'll...
 
 ## Final Thoughts
 
-For more ideas, visit [VEX 123 Activities](https://education.vex.com/stemlabs/123/activities)
+In this guide, your child started with basic commands using the touch buttons on the VEX 123 robot and progressed to more complex programming with the Coder cards. They've tackled "if-else" statements, discovered the power of loops, and learned how to combine different commands to control the robot's actions effectively. For more ideas and activities to extend their learning journey with the VEX 123, visit [VEX 123 Activities](https://education.vex.com/stemlabs/123/activities).
+
+As they grow and look for new challenges, the VEX Go kit serves as an ideal next step. Aimed at children aged 8-9, VEX Go builds on the foundational skills from VEX 123, offering more advanced projects and deeper programming concepts.
+
+This exploration of robotics and coding opens up a world of creativity and problem-solving. With each step, your child is laying the groundwork for a strong understanding of STEM, ready to dive into more complex and rewarding projects.
