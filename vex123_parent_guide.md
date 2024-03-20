@@ -219,9 +219,12 @@ Building on previous experiences with obstacles, this exercise challenges your c
 
 ## Introducing Conditional Logic: If Statements
 
-Conditional logic, often represented by "if" statements, is a fundamental concept in programming that allows decisions to be made based on certain conditions. In the context of the VEX 123 Coder, "if" cards enable your child to program the robot to react differently depending on what it senses in its environment.
+Conditional logic, often represented by "if" statements, is a fundamental concept in programming that allows decisions to be made based on certain conditions. For example, consider your weekend plans: if it's sunny, you might go to the park; if it rains, you might stay home and watch a movie. In a similar way, think about choosing your outfit: if it's sunny, you wear shorts and a t-shirt; if it's raining, you put on warm clothes and take an umbrella. These everyday decisions are based on "if-then" logic, which is essential in coding too.
 
-Each "if" card corresponds to a specific condition, such as detecting an object, identifying a color, or sensing a button press. When the robot encounters the specified condition, it will execute the command associated with that "if" card.
+![If rain](./figures/if-rain.jpg.jpg)
+*We use the "if" condition in our day-to-day lives.*
+
+In the context of the VEX 123 Coder, "if" cards enable your child to program the robot to react differently depending on what it senses in its environment. Each "if" card corresponds to a specific condition, such as detecting an object, identifying a color, or sensing a button press. When the robot encounters the specified condition, it will execute the command associated with that "if" card.
 
 For more details on the Coder cards, check out [the VEX Coder Card Reference Guide](https://kb.vex.com/hc/en-us/articles/360055264691-VEX-Coder-Card-Reference-Guide).
 
@@ -289,6 +292,9 @@ Please note that the "end if" card plays a crucial role in defining the boundari
 ## Exploring Loops
 
 A loop is a fundamental programming concept that allows us to repeat certain sections of code multiple times without having to rewrite them. This is particularly useful in robotics, as it allows a robot to perform continuous actions without a lengthy code. With the VEX 123 Coder, the 'Go to start' card plays a crucial role in creating these loops. Once the programmed sequence reaches this card, it loops back to the beginning - just as the name suggests - enabling the robot to carry out its instructions indefinitely.
+
+![Loop](./figures/loop.jpg)
+*Coder sequence with a 'go to start' card, illustrating how looping works through repeated code execution.*
 
 ### Exercise 11: Non-stop merry-go-round
 
