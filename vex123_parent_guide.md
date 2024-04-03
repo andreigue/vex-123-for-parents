@@ -5,7 +5,7 @@ author: "Andrei Guevorkian"
 illustrator: "Dengyijia Liu"
 ---
 
-Welcome to the playful world of VEX 123! This is where your child can take their first steps into coding and robotics, all while having a ton of fun. As a parent, you might wonder how you can help your little one get the most out of the VEX 123 Robot. Don't worry; this guide is here to walk you through just that. It offers a comprehensive walkthrough from setting up your VEX 123 Robot and programming with its touch buttons, to advancing with VEX Coder Cards, accompanied by a series of progressively challenging exercises that introduce key programming concepts like conditional logic and loops.
+Welcome to the playful world of VEX 123! This is where your child can take their first steps into coding and robotics, all while having a ton of fun. As a parent, you might wonder how you can help your little one get the most out of the VEX 123 Robot. Don't worry; this guide is here to walk you through just that. It offers a comprehensive walkthrough from setting up your VEX 123 Robot and programming with its touch buttons, to advancing with VEX Coder Cards, and exploring the endless possibilities with VEXcode 123, the online platform that provides even more flexibility and control for young coders. Accompanied by a series of progressively challenging exercises, this guide introduces key programming concepts like conditional logic and loops, engaging and in-depth learning experience.
 
 ## Table of Contents
 
