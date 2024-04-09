@@ -44,6 +44,11 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 
 - [Exercise 13: Checking for color](#exercise-13-checking-for-color)
 
+[Diving into VEXcode 123](#diving-into-vexcode-123)
+
+    - [Connecting Your Robot with Bluetooth](#connecting-your-robot-with-bluetooth)
+    - [Navigating the VEXcode 123 Interface](#navigating-the-vexcode-123-interface)
+
 [Final Thoughts](#final-thoughts)
 
 ## Introduction to VEX 123
@@ -341,6 +346,24 @@ Now we will try working with multiple "if" cards.
 *Sequence checking for all 3 colors, and having the robot act different depending on the color in front.*
 
 Now what what if the robot encounters neither of the colors? Well then it'll...
+
+## Diving into VEXcode 123
+
+### Connecting Your Robot with Bluetooth
+
+Start by turning on your VEX 123 Robot to ensure it's ready to pair. Open VEXcode 123 on your browser (by visiting https://code123.vex.com/) and check that your computer's Bluetooth is on. Then, simply click on the 'Connect' button, which will prompt you to select your robot from the list of available devices. Ensuring your robot is on and nearby will facilitate an easy connection.
+
+![Connect robot](./figures/screenshot-connect-robot.png)
+*Click on 'ROBOT' start setting up the connection.*
+
+### Navigating the VEXcode 123 Interface
+
+The VEXcode 123 platform is designed with intuitive drag-and-drop coding blocks, mirroring the physical VEX Coder Cards' simplicity. Familiarize yourself with the virtual coding space by exploring the buttons on the interface. The 'Start,' 'Step,' and 'Stop' buttons in the top right corner function just like their physical counterparts, providing a seamless transition from tangible coding cards to on-screen programming.
+
+Now try dragging some blocks which you are already familiar with and make a simple code, for example like the one below:
+
+![Connect robot](./figures/screenshot-prog1.png)
+*A program which will have the robot drive until it encounters an object, turn right by 90 degrees, and then take 5 steps forward. Notice how you can edit the number of steps and the degrees by which the robot will rotate by. You can even click on "steps" and change it to "mm".*
 
 ## Final Thoughts
 
