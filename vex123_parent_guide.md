@@ -332,7 +332,7 @@ This exercise promises a lot of fun, and it's a chance for you, the parent, to a
 
 ## Combining What We've Learned
 
-[ talk about how to stop a loop. For example, stop the loop once an object is encountered. use the "stop" card. stop will stop the entire program, including exiting the loop]
+So far, we've been stopping loops manually by pressing the red square button on the Coder. Such loops are known in programming as "infinite loops" because they can continue indefinitely if not interrupted. To stop a loop through programming, we introduce a new tool: the "stop" card. When the program reaches the "stop" card, it completely stops the program, much like when you press the red square button on the Coder. Try recreating Exercise 13 to see the "stop" card in action.
 
 ### Exercise 13: Checking for color
 
