@@ -340,6 +340,8 @@ So far, we've been stopping loops manually by pressing the red square button on 
 
 ### Exercise 13: Stop right there
 
+Let's see the "stop" card in action. We've set up a sequence where the robot moves forward and uses its sensors to look for objects. If it finds something in its way, it gives a signal by playing the doorbell sound. Right after the signal, the "stop" card comes into play, telling the robot to halt everything it's doing, and exit the program. This mimics the same effect as manually pressing the red square button on the Coder, but it's all handled through programming.
+
 ![Sequence exercise 13](./figures/ex13-stop.jpg)
 *The robot moves one step at a time, until it encounters an object, at which point it rings the doorbell and stops the code.*
 
