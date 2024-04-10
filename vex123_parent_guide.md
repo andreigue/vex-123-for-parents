@@ -40,14 +40,18 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 - [Exercise 11: Non-stop merry-go-round](#exercise-11-non-stop-merry-go-round)
 - [Exercise 12: The endless bump-a-thon](#exercise-12-the-endless-bump-a-thon)
 
+[Exiting Loops Programmatically](#exiting-loops-programmatically)
+
+- [Exercise 13: Stop right there](#exercise-13-stop-right-there)
+
 [Combining What We've Learned](#combining-what-weve-learned)
 
-- [Exercise 13: Checking for color](#exercise-13-checking-for-color)
+- [Exercise 14: Looking for the green](#exercise-14-looking-for-the-green)
 
 [Diving into VEXcode 123](#diving-into-vexcode-123)
 
-    - [Connecting Your Robot with Bluetooth](#connecting-your-robot-with-bluetooth)
-    - [Navigating the VEXcode 123 Interface](#navigating-the-vexcode-123-interface)
+- [Connecting Your Robot with Bluetooth](#connecting-your-robot-with-bluetooth)
+- [Navigating the VEXcode 123 Interface](#navigating-the-vexcode-123-interface)
 
 [Final Thoughts](#final-thoughts)
 
@@ -330,22 +334,29 @@ This exercise promises a lot of fun, and it's a chance for you, the parent, to a
 ![Random crashes](./figures/ex12-2-random-path.jpg)
 *One possible trajectory of the infinite loop of random movements.*
 
-## Combining What We've Learned
+## Exiting Loops Programmatically
 
 So far, we've been stopping loops manually by pressing the red square button on the Coder. Such loops are known in programming as "infinite loops" because they can continue indefinitely if not interrupted. To stop a loop through programming, we introduce a new tool: the "stop" card. When the program reaches the "stop" card, it completely stops the program, much like when you press the red square button on the Coder. Try recreating Exercise 13 to see the "stop" card in action.
 
-### Exercise 13: Checking for color
+### Exercise 13: Stop right there
+
+![Sequence exercise 13](./figures/ex13-stop.jpg)
+*The robot moves one step at a time, until it encounters an object, at which point it rings the doorbell and stops the code.*
+
+## Combining What We've Learned
+
+### Exercise 14: Looking for the green
 
 Now we will try working with multiple "if" cards.
 
 1. Place colored objects (red, green, blue) at different points on the field.
-2. Guide your child to create a sequence using "if color detected" cards for each color, assigning specific actions for each one, such as turning or making a sound, and ending each sequence with an "end if" card.
-3. Watch how the robot identifies each color and performs the corresponding actions, showcasing its ability to make decisions based on color.
+2. Guide your child to create a sequence using "if color detected" cards for each color,  aiming to have the robot navigate towards the next color.
+3. Observe as the robot discerns and reacts to each color, demonstrating its decision-making capabilities based on color detection. The sequence will conclude once the final color is identified, effectively ending the program.
 
-![Sequence exercise 14](./figures/ex13-colored-obstacles.jpg)
+![Sequence exercise 14](./figures/ex14-colored-obstacles.jpg)
 *Sequence checking for all 3 colors, and having the robot act different depending on the color in front.*
 
-Now what what if the robot encounters neither of the colors? Well then it'll...
+I highly encourage to use the orange Step button so see which lines of code get executed and in what order. But in summary, 
 
 ## Diving into VEXcode 123
 
