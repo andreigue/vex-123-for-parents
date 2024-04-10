@@ -347,6 +347,8 @@ Let's see the "stop" card in action. We've set up a sequence where the robot mov
 
 ## Combining What We've Learned
 
+All the hard learning is done now! Your child has navigated through basic commands, tackled logical "if" and "else" statements, and harnessed the power of loops. They've now got a solid foundation to blend these elements in increasingly sophisticated ways. Let's put all these skills to the test in our final exercise!
+
 ### Exercise 14: Looking for the green
 
 Now we will try working with multiple "if" cards.
