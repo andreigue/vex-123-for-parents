@@ -361,6 +361,13 @@ This final exercise is a practical test to see if your child can predict the flo
 ![Sequence exercise 14](./figures/ex14-colored-obstacles.jpg)
 *Sequence checking for all 3 colors, and having the robot act different depending on the color in front.*
 
+The original program we've discussed is intentionally convoluted, designed to test your child's ability to navigate complex sequences. While the field layout and colored blocks allow for a simpler code that achieves the same actions, using a more intricate code helps to solidify your child's understanding.
+
+![Alternative code](./figures/ex14-alternative-code.jpg)
+*A simplified sequence that accomplishes the same tasks with simpler steps.*
+
+If your child can read and comprehend the more complex version of the program, they are showing a readiness to progress in their coding journey, fully equipped to tackle the next challenges that await.
+
 ## Diving into VEXcode 123
 
 ### Connecting Your Robot with Bluetooth
