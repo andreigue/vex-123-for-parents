@@ -46,7 +46,7 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 
 [Combining What We've Learned](#combining-what-weve-learned)
 
-- [Exercise 14: Looking for the green](#exercise-14-looking-for-the-green)
+- [Exercise 14: Stopping at green](#exercise-14-stopping-at-green)
 
 [Diving into VEXcode 123](#diving-into-vexcode-123)
 
@@ -349,18 +349,17 @@ Let's see the "stop" card in action. We've set up a sequence where the robot mov
 
 All the hard learning is done now! Your child has navigated through basic commands, tackled logical "if" and "else" statements, and harnessed the power of loops. They've now got a solid foundation to blend these elements in increasingly sophisticated ways. Let's put all these skills to the test in our final exercise!
 
-### Exercise 14: Looking for the green
+### Exercise 14: Stopping at green
 
-Now we will try working with multiple "if" cards.
+This final exercise is a practical test to see if your child can predict the flow of a relatively complex code sequence. It's designed to be a challenging puzzle, but if your child can crack it, they've mastered the concepts we've explored.
 
-1. Place colored objects (red, green, blue) at different points on the field.
-2. Guide your child to create a sequence using "if color detected" cards for each color,  aiming to have the robot navigate towards the next color.
-3. Observe as the robot discerns and reacts to each color, demonstrating its decision-making capabilities based on color detection. The sequence will conclude once the final color is identified, effectively ending the program.
+1. Arrange your field to match the layout shown in the illustration.
+2. Insert the cards into the Coder as displayed.
+3. Have your child explain how they think the robot will move, asking them which card the Coder will read next and why.
+4. Activate the program and watch the robot in action. Use the orange Step button together to track each step and confirm the sequence's flow.
 
 ![Sequence exercise 14](./figures/ex14-colored-obstacles.jpg)
 *Sequence checking for all 3 colors, and having the robot act different depending on the color in front.*
-
-I highly encourage to use the orange Step button so see which lines of code get executed and in what order. But in summary, 
 
 ## Diving into VEXcode 123
 
