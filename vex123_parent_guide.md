@@ -370,6 +370,8 @@ If your child can read and comprehend the more complex version of the program, t
 
 ## Diving into VEXcode 123
 
+After mastering the basics of VEX 123 with hands-on coding, it's time to explore VEXcode 123, an easy-to-use, drag-and-drop online platform. This tool allows your child to expand their coding capabilities by connecting the VEX 123 robot to a computer via Bluetooth. They can now create and run more complex programs that go beyond the ten-card limit of the physical Coder. VEXcode 123 provides a user-friendly interface that enhances their programming experience, giving your child the tools to build on the coding fundamentals they've already developed.
+
 ### Connecting Your Robot with Bluetooth
 
 Start by turning on your VEX 123 Robot to ensure it's ready to pair. Open VEXcode 123 on your browser (by visiting https://code123.vex.com/) and check that your computer's Bluetooth is on. Then, simply click on the 'Connect' button, which will prompt you to select your robot from the list of available devices. Ensuring your robot is on and nearby will facilitate an easy connection.
@@ -385,6 +387,8 @@ Now try dragging some blocks which you are already familiar with and make a simp
 
 ![Example sequence](./figures/screenshot1-basic-commands.png)
 *A program which will have the robot drive until it encounters an object, turn right by 90 degrees, and then take 5 steps forward. Notice how you can edit the number of steps and the degrees by which the robot will rotate by. You can even click on "steps" and change it to "mm".*
+
+Try to make a while loop.
 
 ## Final Thoughts
 
