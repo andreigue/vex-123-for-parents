@@ -383,7 +383,7 @@ The VEXcode 123 platform is designed with intuitive drag-and-drop coding blocks,
 
 Now try dragging some blocks which you are already familiar with and make a simple code, for example like the one below:
 
-![Connect robot](./figures/screenshot-prog1.png)
+![Example sequence](./figures/screenshot1-basic-commands.png)
 *A program which will have the robot drive until it encounters an object, turn right by 90 degrees, and then take 5 steps forward. Notice how you can edit the number of steps and the degrees by which the robot will rotate by. You can even click on "steps" and change it to "mm".*
 
 ## Final Thoughts
