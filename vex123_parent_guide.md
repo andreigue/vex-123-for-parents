@@ -374,7 +374,7 @@ After mastering the basics of VEX 123 with hands-on coding, it's time to explore
 
 ### Connecting Your Robot with Bluetooth
 
-Start by turning on your VEX 123 Robot to ensure it's ready to pair. Open VEXcode 123 on your browser (by visiting https://code123.vex.com/) and check that your computer's Bluetooth is on. Then, simply click on the 'Connect' button, which will prompt you to select your robot from the list of available devices. Ensuring your robot is on and nearby will facilitate an easy connection.
+Open VEXcode 123 on your browser (by visiting https://code123.vex.com/) and check that your computer's Bluetooth is on. Then, simply click on the 'Connect' button, which will prompt you to select your robot from the list of available devices. Ensuring your robot is on and nearby will facilitate an easy connection.
 
 ![Connect robot](./figures/screenshot-connect-robot.png)
 *Click on 'ROBOT' start setting up the connection.*
