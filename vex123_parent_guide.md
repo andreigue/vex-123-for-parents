@@ -50,8 +50,9 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 
 [Diving into VEXcode 123](#diving-into-vexcode-123)
 
-- [Connecting Your Robot with Bluetooth](#connecting-your-robot-with-bluetooth)
-- [Navigating the VEXcode 123 Interface](#navigating-the-vexcode-123-interface)
+- [Connecting your robot with bluetooth](#connecting-your-robot-with-bluetooth)
+- [Navigating the VEXcode 123 interface](#navigating-the-vexcode-123-interface)
+- [Introducing variables](#introducing-variables)
 
 [Final Thoughts](#final-thoughts)
 
@@ -372,23 +373,37 @@ If your child can read and comprehend the more complex version of the program, t
 
 After mastering the basics of VEX 123 with hands-on coding, it's time to explore VEXcode 123, an easy-to-use, drag-and-drop online platform. This tool allows your child to expand their coding capabilities by connecting the VEX 123 robot to a computer via Bluetooth. They can now create and run more complex programs that go beyond the ten-card limit of the physical Coder. VEXcode 123 provides a user-friendly interface that enhances their programming experience, giving your child the tools to build on the coding fundamentals they've already developed.
 
-### Connecting Your Robot with Bluetooth
+### Connecting your robot with bluetooth
 
 Open VEXcode 123 on your browser (by visiting https://code123.vex.com/) and check that your computer's Bluetooth is on. Then, simply click on the 'Connect' button, which will prompt you to select your robot from the list of available devices. Ensuring your robot is on and nearby will facilitate an easy connection.
 
 ![Connect robot](./figures/screenshot-connect-robot.png)
-*Click on 'ROBOT' start setting up the connection.*
+*Click on 'ROBOT', then 'Connect' to start setting up the connection.*
 
-### Navigating the VEXcode 123 Interface
+### Navigating the VEXcode 123 interface
 
-The VEXcode 123 platform is designed with intuitive drag-and-drop coding blocks, mirroring the physical VEX Coder Cards' simplicity. Familiarize yourself with the virtual coding space by exploring the buttons on the interface. The 'Start,' 'Step,' and 'Stop' buttons in the top right corner function just like their physical counterparts, providing a seamless transition from tangible coding cards to on-screen programming.
+The VEXcode 123 platform is designed with intuitive drag-and-drop coding blocks, mirroring the physical VEX Coder Cards' simplicity. Recognize the 'Start,' 'Step,' and 'Stop' buttons in the top right corner. Try dragging and dropping some blocks from the left-hand side onto the canvas. It's mostly all the same as the Coder.
 
-Now try dragging some blocks which you are already familiar with and make a simple code, for example like the one below:
+Here is an example program which your child should easily be able to understand now that they've played with the Coder cards:
 
 ![Example sequence](./figures/screenshot1-basic-commands.png)
-*A program which will have the robot drive until it encounters an object, turn right by 90 degrees, and then take 5 steps forward. Notice how you can edit the number of steps and the degrees by which the robot will rotate by. You can even click on "steps" and change it to "mm".*
+*A program which will have the robot glow green, drive 100mm, turn right by 90 degrees, act sad and finally play a honk sound. Notice how you can edit the number of steps and the degrees by which the robot will rotate by. You can even click on "steps" and change it to "mm".*
 
-Try to make a while loop.
+Let's now try to make a while loop. 
+
+1. Go to the yellowish-orange "Control" section, and drag the "repeat 10" block. 
+2. Change it from 10 to 3 iterations.
+3. Select "glow green" and drag it into the loop block. Notice how holding onto "glow green", it will also take everything under it. Once you see the "click" that shows that you have indeed inserted the code inside the loop.
+4. Pick up the "act sad" block and drag it below the loop. This way, the robot won't constantly act sad and honk, but will only do it at the end, once the loop has completed its 3 iterations.
+
+![Example sequence](./figures/screenshot2-loop-commands.png)
+*The previous code placed in a while loop that loops 10 times. The robot will end with a drama show and a honk.*
+
+Take the time to experiment with the different loops.
+
+### Introducing variables
+
+So far, we've create a loop using the "repeat" block. Let's now drag the "while" code block
 
 ## Final Thoughts
 
