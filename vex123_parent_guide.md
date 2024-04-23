@@ -386,24 +386,47 @@ The VEXcode 123 platform is designed with intuitive drag-and-drop coding blocks,
 
 Here is an example program which your child should easily be able to understand now that they've played with the Coder cards:
 
-![Example sequence](./figures/screenshot1-basic-commands.png)
-*A program which will have the robot glow green, drive 100mm, turn right by 90 degrees, act sad and finally play a honk sound. Notice how you can edit the number of steps and the degrees by which the robot will rotate by. You can even click on "steps" and change it to "mm".*
+![Basic example sequence](./figures/screenshot1-basic-commands.png)
+*Notice how you can adjust the number of steps and the degrees of rotation directly in the blocks. You can even switch from "steps" to "mm" by clicking on the default setting.*
 
-Let's now try to make a while loop. 
+> Manually stop the execution of the code by pressing the 'Stop' button.
 
-1. Go to the yellowish-orange "Control" section, and drag the "repeat 10" block. 
-2. Change it from 10 to 3 iterations.
-3. Select "glow green" and drag it into the loop block. Notice how holding onto "glow green", it will also take everything under it. Once you see the "click" that shows that you have indeed inserted the code inside the loop.
-4. Pick up the "act sad" block and drag it below the loop. This way, the robot won't constantly act sad and honk, but will only do it at the end, once the loop has completed its 3 iterations.
+And here's another example that builds on what they've learned. If there's any confusion, remind them about the "Go to start" card which reinitiates the sequence:
 
-![Example sequence](./figures/screenshot2-loop-commands.png)
-*The previous code placed in a while loop that loops 10 times. The robot will end with a drama show and a honk.*
+1. Navigate to the yellowish-orange "Control" section and drag the "repeat 10" block.
+2. Modify it to repeat 3 times.
+3. Add the "glow green" block into this loop, and observe how it automatically carries any blocks placed beneath it into the loop.
+4. Place the "act sad" block (together with "play sound") below the loop so these actions occur only once the loop completes.
 
-Take the time to experiment with the different loops.
+![Example sequence with repeat](./figures/screenshot2-loop-commands.png)
+*This setup repeats three times before concluding with a drama show and a honk.*
+
+Finally, let's go over the **if** statement.
+
+1. From the "Control" section, drag the "if <> then" block.
+2. Place it after the "drive forward" block.
+3. Insert "act sad" (including "play sound") below the "if" block.
+
+![Example sequence with if](./figures/screenshot3-if-statement-incomplete.png)
+*Here's an incomplete 'if' statement, awaiting a condition.*
+
+The empty space in the 'if' block is designed to fit a condition. This space has a distinctive elongated hexagonal shape. In the cyan-colored "Sensing" section, you’ll find blocks with this same shape. These are designed to fit as conditions in the 'if' statement.
+
+![Example sequence with if](./figures/screenshot4-if-statement.png)
+*A complete 'if' sequence where the robot checks for an object before proceeding.*
+
+Encourage your child to create programs longer than 10 blocks and explore functionalities beyond what was possible with the Coder. Spend some time in sections like Drivetrain, Sound, Actions, Control, and Sensing. Not every block will be familiar yet, so stick to experimenting with the blocks they understand.
+
+This is about as complex as your child should handle for now. Review this code together, discussing why it behaves as it does to deepen their understanding.
+
+![Nested if example sequence](./figures/screenshot5-nested-ifs.png)
+*A more complex setup featuring nested 'if' structures.*
 
 ### Introducing variables
 
 So far, we've create a loop using the "repeat" block. Let's now drag the "while" code block
+
+### Introducing the while loop
 
 ## Final Thoughts
 
