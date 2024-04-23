@@ -53,6 +53,8 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 - [Connecting your robot with bluetooth](#connecting-your-robot-with-bluetooth)
 - [Navigating the VEXcode 123 interface](#navigating-the-vexcode-123-interface)
 - [Introducing variables](#introducing-variables)
+- [Introducing the while loop](#introducing-the-while-loop)
+- [Combining loops with if statements](#combining-loops-with-if-statements)
 
 [Final Thoughts](#final-thoughts)
 
@@ -419,14 +421,39 @@ Encourage your child to create programs longer than 10 blocks and explore functi
 
 This is about as complex as your child should handle for now. Review this code together, discussing why it behaves as it does to deepen their understanding.
 
-![Nested if example sequence](./figures/screenshot5-nested-ifs.png)
+![Nested if example sequence](./figures/screenshot5-nested-ifs.jpg)
 *A more complex setup featuring nested 'if' structures.*
 
 ### Introducing variables
 
-So far, we've create a loop using the "repeat" block. Let's now drag the "while" code block
+In programming, variables act like labeled boxes that store information. Just as you might use a box labeled "holiday decorations" to store specific items, variables in coding keep track of data that your program needs to remember.
+
+Let's create a variable in the VEXcode 123 platform:
+
+1. Navigate to the "Variables" section on the interface.
+2. Click on "Make a Variable."
+3. Name your variable "numberOfTurnsCompleted".
+
+You now have a variable, or a "box," labeled "numberOfTurnsCompleted," but it's empty at the moment. You can visualize it by dragging and dropping the variable onto the canvas, outside your main program.
+
+To assign a value to this variable, use the block "set numberOfTurnsCompleted to 0." This action places the number 0 inside your "numberOfTurnsCompleted" variable.
+
+[same illustrations of box with a label "numberOfTurnsCompleted" with number 0 inside]
+
+Variables are named to reflect meaningful elements in your code or real-world values, and they are especially useful for tracking changes over time. For example, a variable might represent the number of laps a runner completes, the score in a game, or even the temperature on a thermostat. In the case of our robot, the variable "numberOfTurnsCompleted" keeps count of each turn the robot makes, updating from 0 to 1, 2, 3, and so on, similar to adding items to a box or updating a tally.
+
+[illustration of same box with 0 leaving, and 1 coming in]
+
+For now, this variable might not seem like it’s doing much, but soon we'll use it to make our robot behave differently based on how many turns it has completed. This ability to dynamically change the information stored in a variable is what makes them so powerful in programming.
 
 ### Introducing the while loop
+
+So far, we've create a loop using the "repeat" block. Let's now drag the "while" code block
+Change the type of loop. instead of 'repeat', we're going to use the "while loop". This is a very popular way to iterate code in many programming languages.
+
+It takes a condition. "we will repeat X while some condition is true" something like that.
+
+### Combining loops with if statements
 
 ## Final Thoughts
 
