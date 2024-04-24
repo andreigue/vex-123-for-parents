@@ -52,8 +52,11 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 
 - [Connecting your robot with bluetooth](#connecting-your-robot-with-bluetooth)
 - [Navigating the VEXcode 123 interface](#navigating-the-vexcode-123-interface)
-- [Introducing variables](#introducing-variables)
-- [Introducing the while loop](#introducing-the-while-loop)
+
+[Introducing variables](#introducing-variables)
+
+[Introducing the while loop](#introducing-the-while-loop)
+
 - [Combining loops with if statements](#combining-loops-with-if-statements)
 
 [Final Thoughts](#final-thoughts)
@@ -424,7 +427,7 @@ This is about as complex as your child should handle for now. Review this code t
 ![Nested if example sequence](./figures/screenshot5-nested-ifs.jpg)
 *A more complex setup featuring nested 'if' structures.*
 
-### Introducing variables
+## Introducing variables
 
 In programming, variables act like labeled boxes that store information. Just as you might use a box labeled "holiday decorations" to store specific items, variables in coding keep track of data that your program needs to remember.
 
@@ -446,14 +449,26 @@ Variables are named to reflect meaningful elements in your code or real-world va
 
 For now, this variable might not seem like it’s doing much, but soon we'll use it to make our robot behave differently based on how many turns it has completed. This ability to dynamically change the information stored in a variable is what makes them so powerful in programming.
 
-### Introducing the while loop
+## Introducing the while loop
 
 So far, we've create a loop using the "repeat" block. Let's now drag the "while" code block
 Change the type of loop. instead of 'repeat', we're going to use the "while loop". This is a very popular way to iterate code in many programming languages.
 
 It takes a condition. "we will repeat X while some condition is true" something like that.
 
+condition is of the same style as the if statement, the <> shaped placeholder. Now what could we put in it?
+
+We're essentiaally doing the same thing as with repeat, but now in a slightly more sophisticated way, in a way that real programmers in the real world do it.
+
+### Arithmetic operators
+
+### Comparison operators
+
+### Logical operators
+
+
 ### Combining loops with if statements
+
 
 ## Final Thoughts
 
