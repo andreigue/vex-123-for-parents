@@ -417,10 +417,12 @@ The empty space in the 'if' block is designed to fit a condition. This space has
 
 Encourage your child to create programs longer than 10 blocks and explore functionalities beyond what was possible with the Coder. Spend some time in sections like Drivetrain, Sound, Actions, Control, and Sensing. Not every block will be familiar yet, so stick to experimenting with the blocks they understand.
 
-This is about as complex as your child should handle for now. Review this code together, discussing why it behaves as it does to deepen their understanding.
+After your child has had a chance to experiment and create their own code, it's a good opportunity to delve into the concept of nested "if" statements together. Nested "if" statements are like a set of choices within choices. Imagine your child deciding what to play with: if it's sunny, they might go outside. But if they find their bike's tire is flat, they decide to play soccer instead. Each "if" leads to another "if," like a branching path where each step depends on the outcome of the previous one. This is how we can make a program, or our robot in this case, make a series of decisions that depend on different conditions.
+
+Discuss with your child each step the robot takes, asking questions like "What will the robot do if it sees an object?" and "What happens if there's an obstacle on the left too?" This will help them grasp how nested "if" statements influence the robot's behavior.
 
 ![Nested if example sequence](./figures/screenshot5-nested-ifs.jpg)
-*A more complex setup featuring nested 'if' structures.*
+*The robot's journey is a decision-making adventure: it moves forward until it meets an obstacle, then checks left—if it's clear, it turns left; if not, it turns right.*
 
 ## Introducing variables
 
