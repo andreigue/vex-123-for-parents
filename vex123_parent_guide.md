@@ -53,6 +53,8 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 - [Connecting your robot with bluetooth](#connecting-your-robot-with-bluetooth)
 - [Navigating the VEXcode 123 interface](#navigating-the-vexcode-123-interface)
 
+[Nested if](#nested-if)
+
 [Introducing variables](#introducing-variables)
 
 [Introducing the while loop](#introducing-the-while-loop)
@@ -259,7 +261,7 @@ You might think the robot only performs the action right after detecting an obje
 
 And what happens if the robot does not encounter an object in front of it? Well, it will skip the lines after the "if", in this case, **play doorbell > turn left > drive 2 > turn around**.
 
-Now, what if you want the robot to execute something regardless of whether or not the "if" condition was satisfied. For example, at the end of it all, you want the robot to act happy, regardless of whether there it detected an object or not. To do so, we must incorporate the "end if" card. This card indicates to the Coder that the conditional sequence established by the "if" card has finished. Essentially, it closes off the conditional section. As a result, any actions placed after the "end if" card, such as "act happy," will be carried out irrespective of whether the initial "if" condition was met or not.
+Now, what if you want the robot to execute something regardless of whether or not the "if" condition was satisfied. For example, at the end of it all, you want the robot to act happy, regardless of whether there it detected an object or not. To do so, we must incorporate the "end if" card. This card indicates to the Coder that the conditional sequence established by the "if" card has finished. Essentially, it closes off the conditional section. As a result, any actions placed after the "end if" card, such as "act happy", will be carried out irrespective of whether the initial "if" condition was met or not.
 
 ![Sequence exercise 8-3](./figures/ex8-3-doorbell-happy.jpg)
 *The robot moves forward two tiles. If it finds an object, it rings the doorbell, turns, and moves away. Then, it acts happy, whether or not there was an object.*
@@ -417,7 +419,9 @@ The empty space in the 'if' block is designed to fit a condition. This space has
 
 Encourage your child to create programs longer than 10 blocks and explore functionalities beyond what was possible with the Coder. Spend some time in sections like Drivetrain, Sound, Actions, Control, and Sensing. Not every block will be familiar yet, so stick to experimenting with the blocks they understand.
 
-After your child has had a chance to experiment and create their own code, it's a good opportunity to delve into the concept of nested "if" statements together. Nested "if" statements are like a set of choices within choices. Imagine your child deciding what to play with: if it's sunny, they might go outside. But if they find their bike's tire is flat, they decide to play soccer instead. Each "if" leads to another "if," like a branching path where each step depends on the outcome of the previous one. This is how we can make a program, or our robot in this case, make a series of decisions that depend on different conditions.
+## Nested if
+
+After your child has had a chance to experiment and create their own code, it's a good opportunity to delve into the concept of nested "if" statements together. Nested "if" statements are like a set of choices within choices. Imagine your child deciding what to play with: if it's sunny, they might go outside. But if they find their bike's tire is flat, they decide to play soccer instead. Each "if" leads to another "if", like a branching path where each step depends on the outcome of the previous one. This is how we can make a program, or our robot in this case, make a series of decisions that depend on different conditions.
 
 Discuss with your child each step the robot takes, asking questions like "What will the robot do if it sees an object?" and "What happens if there's an obstacle on the left too?" This will help them grasp how nested "if" statements influence the robot's behavior.
 
@@ -431,16 +435,16 @@ In programming, variables act like labeled boxes that store information. Just as
 Let's create a variable in the VEXcode 123 platform:
 
 1. Navigate to the "Variables" section on the interface.
-2. Click on "Make a Variable."
-3. Name your variable "numberOfTurnsCompleted".
+2. Click on "Make a Variable".
+3. Name your variable `numberOfTurnsCompleted`.
 
-You now have a variable, or a "box," labeled "numberOfTurnsCompleted," but it's empty at the moment. You can visualize it by dragging and dropping the variable onto the canvas, outside your main program.
+You now have a variable, or a "box", labeled `numberOfTurnsCompleted`, but it's empty at the moment. You can visualize it by dragging and dropping the variable onto the canvas, outside your main program.
 
-To assign a value to this variable, use the block "set numberOfTurnsCompleted to 0." This action places the number 0 inside your "numberOfTurnsCompleted" variable.
+To assign a value to this variable, use the block "set `numberOfTurnsCompleted` to 0". This action places the number 0 inside your `numberOfTurnsCompleted` variable.
 
-[same illustrations of box with a label "numberOfTurnsCompleted" with number 0 inside]
+[same illustrations of box with a label `numberOfTurnsCompleted` with number 0 inside]
 
-Variables are named to reflect meaningful elements in your code or real-world values, and they are especially useful for tracking changes over time. For example, a variable might represent the number of laps a runner completes, the score in a game, or even the temperature on a thermostat. In the case of our robot, the variable "numberOfTurnsCompleted" keeps count of each turn the robot makes, updating from 0 to 1, 2, 3, and so on, similar to adding items to a box or updating a tally.
+Variables are named to reflect meaningful elements in your code or real-world values, and they are especially useful for tracking changes over time. For example, a variable might represent the number of laps a runner completes, the score in a game, or even the temperature on a thermostat. In the case of our robot, the variable `numberOfTurnsCompleted` keeps count of each turn the robot makes, updating from 0 to 1, 2, 3, and so on, similar to adding items to a box or updating a tally.
 
 [illustration of same box with 0 leaving, and 1 coming in]
 
@@ -448,14 +452,38 @@ For now, this variable might not seem like it’s doing much, but soon we'll use
 
 ## Introducing the while loop
 
-So far, we've create a loop using the "repeat" block. Let's now drag the "while" code block
-Change the type of loop. instead of 'repeat', we're going to use the "while loop". This is a very popular way to iterate code in many programming languages.
+In programming, loops let us repeat actions easily. We've already used the "repeat" block for looping a set number of times. Now, let's look at the "while loop", which is common in many programming languages.
 
-It takes a condition. "we will repeat X while some condition is true" something like that.
+Think of the "while loop" like this: "Keep doing something while a certain condition is true". It's similar to saying, "Keep playing music while I'm studying".
 
-condition is of the same style as the if statement, the <> shaped placeholder. Now what could we put in it?
+The condition for a "while loop" fits into a <> shaped space in the block, just like with "if" statements. Inside, you place a condition that the computer checks before each loop. If the condition is true, the loop keeps going. If not, the loop stops.
 
-We're essentiaally doing the same thing as with repeat, but now in a slightly more sophisticated way, in a way that real programmers in the real world do it.
+Here's a real-world example: You're at a party and think, "While my favorite song is playing, I'll dance". If the song changes and you don't like the new one, you stop dancing—that's your loop ending.
+
+### Drawing a square with a "while loop"
+
+Let's apply this to our VEX 123 robot. To draw a square, the robot must move forward and turn a corner, repeating this process four times. The "while loop" is perfect for this.
+
+But there's a catch: we need to tell the robot when to stop. We do this by keeping track of how many turns it has made. This is where the newly learned concept of variables comes into play. We'll create a variable called `counter` and set it to zero. Then our "while loop" will look like this: "While `counter` is less than 4, move and turn".
+
+[illustration of set counter to 0, then while <counter < 4> do something. This will loop infinite number of times because 0 is always less than 4, so infinite loop]
+
+However, we need to update the counter each time the robot turns, or else our loop will run forever because counter will always be less than 4. We'll increase counter by one each time through the loop—this is known as incrementing.
+
+[illustration with incrementation of counter variable]
+
+### Beyond simple repetition: logical operators
+
+We can also make our loops smarter using logical operators like `not`, `and`, `or`. These operators let us combine conditions. For instance, "while counter is less than 4 AND no object is found, keep moving". This makes our robot more responsive to its environment.
+
+Here's how you can introduce logical operators to the loop:
+
+- "While NOT (object found)": The robot moves until it detects something.
+- "While (object found) OR (counter is less than 4)": Gives two conditions that can keep the loop going.
+
+Logical operators allow us to create more complex and interactive programs, enhancing the robot's decision-making abilities. It's a bit like setting rules for a game where multiple conditions can change the outcome of each turn.
+
+The "while" loop opens up new programming dimensions, aligning more closely with professional coding practices and offering a robust way to handle repeated actions with smart conditions.
 
 ### Arithmetic operators
 
