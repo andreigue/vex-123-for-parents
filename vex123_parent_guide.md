@@ -434,7 +434,7 @@ In programming, variables act like labeled boxes that store information. Just as
 
 Let's create a variable in the VEXcode 123 platform:
 
-1. Navigate to the "Variables" section on the interface.
+1. Navigate to the orange "Variables" section on the interface.
 2. Click on "Make a Variable".
 3. Name your variable `numberOfTurnsCompleted`.
 
@@ -464,15 +464,41 @@ Here's a real-world example: You're at a party and think, "While my favorite son
 
 Let's apply this to our VEX 123 robot. To draw a square, the robot must move forward and turn a corner, repeating this process four times. The "while loop" is perfect for this.
 
-But there's a catch: we need to tell the robot when to stop. We do this by keeping track of how many turns it has made. This is where the newly learned concept of variables comes into play. We'll create a variable called `counter` and set it to zero. Then our "while loop" will look like this: "While `counter` is less than 4, move and turn".
+To control the loop, we'll introduce comparison operators and use a variable as our counter. Comparison operators in programming are just like they sound—they compare two values. They include:
+
+- < (less than)
+- \> (greater than)
+- == (equal to)
+- != (not equal to)
+- <= (less than or equal to)
+- \>= (greater than or equal to)
+
+For example, `3 > 5` is a false statement, while `10 >= 10` is a true statement.
+
+We can also use variables here. Say we have a variable named `counter`, and `counter` is set to 14. The statement `counter > 21` is false, while `counter > 0` is true.
+
+For example, we can have a condition as follows:
+
+![Condition statement with if](./figures/screenshot6-explaining-conditions.png)
+*Since the statement "0 > 50" is false, the program will not enter the if statement, and the robot will not drive*
+
+Same thing with a while loop. But this time, let's create a variable instead of simply comparing two numbers directly. We have to set the variable to a value. In other words, what do we want the variable to contain?
 
 [illustration of set counter to 0, then while <counter < 4> do something. This will loop infinite number of times because 0 is always less than 4, so infinite loop]
+![Condition statement with while loop](./figures/screenshot7-loop-counter.png)
+*Since the statement "counter < 4" is true, the program will enter the while loop, and the robot will move forward by 1 step, non-stop.*
+
+This is known as an infinite while loop. The variable `counter` is set to 0 initially, and the program checks "is `counter` less than 4?". Since it is, the program enters the while loop. When the program reaches the last line of the loop, it comes back to the top, and asks again: "is `counter` less than 4?". So on and so forth.
+
+But there's a catch: we need to tell the robot when to stop. We do this by keeping track of how many turns it has made. This is where the newly learned concept of variables comes into play. We'll create a variable called `counter` and set it to zero. Then our "while loop" will look like this: "While `counter` is less than 4, move and turn".
 
 However, we need to update the counter each time the robot turns, or else our loop will run forever because counter will always be less than 4. We'll increase counter by one each time through the loop—this is known as incrementing.
 
 [illustration with incrementation of counter variable]
 
 ### Beyond simple repetition: logical operators
+
+We have seen comparison operators, which are..., which allow ... 
 
 We can also make our loops smarter using logical operators like `not`, `and`, `or`. These operators let us combine conditions. For instance, "while counter is less than 4 AND no object is found, keep moving". This makes our robot more responsive to its environment.
 
@@ -484,13 +510,6 @@ Here's how you can introduce logical operators to the loop:
 Logical operators allow us to create more complex and interactive programs, enhancing the robot's decision-making abilities. It's a bit like setting rules for a game where multiple conditions can change the outcome of each turn.
 
 The "while" loop opens up new programming dimensions, aligning more closely with professional coding practices and offering a robust way to handle repeated actions with smart conditions.
-
-### Arithmetic operators
-
-### Comparison operators
-
-### Logical operators
-
 
 ### Combining loops with if statements
 
