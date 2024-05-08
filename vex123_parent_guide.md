@@ -519,6 +519,8 @@ Please note that it is also possible to increment the counter in the following m
 ![Loop incrementing counter using + operator](./figures/screenshot9-counter-increment2.png)
 *We can also use the "set counter" block in order to add 1 to the previous counter value each time the loop is entered.*
 
+The last block in the loop updates the value of counter by adding 1 to its current value. So if counter was previously 1, it would now become 2 after this block executes.
+
 ### Beyond simple repetition: logical operators
 
 So far, we've explored comparison operators that help determine whether a condition is met, such as whether a `counter` is less than 4. These operators are fundamental for making decisions in loops and if statements.
