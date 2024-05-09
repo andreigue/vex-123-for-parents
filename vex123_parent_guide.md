@@ -540,7 +540,7 @@ Let's go over a practical example:
 2. Navigate to the "Operators" section and select the and block, which has two input slots for conditions. Drag this block into the condition area of your "while" loop.
 3. Take the `counter < 4` condition you set aside earlier and connect it to the left slot of the and operator. This condition will ensure the loop executes a set number of times.
 4. Drag the `not` operator from the "Operators" section and place it into the right slot of the and block.
-5. Go to the "Sensing" category and find the "eye found an object?" block. This block detects objects in front of the robot. Place this block inside the `not` operator. 
+5. Go to the "Sensing" category and find the "eye found an object?" block. This block detects objects in front of the robot. Place this block inside the `not` operator.
 
 This setup now reads: while the counter is less than four, and no object is detected, the robot should continue executing the loop commands.
 
@@ -552,6 +552,13 @@ Here's what your program should look like now:
 Logical operators allow us to create more complex and interactive programs, enhancing the robot's decision-making abilities. This approach makes the robot's behavior more dynamic, allowing it to respond to its surroundings while keeping track of how many turns it has made.
 
 ### Combining loops with if statements
+
+Combining loops with conditional statements, or "if" statements, allows programs to react dynamically at different stages of the loop. This method is ideal for creating complex behaviors within automated sequences, such as having a robot perform different actions depending on the iteration or based on sensor inputs.
+
+Taking what we've previously set up with the while loop and `counter`, we now integrate multiple if statements to diversify the robot's actions during each loop iteration. Start by adding an if statement inside the while loop to check the counter value. You can easily create more conditional checks by right-clicking on the first if statement, selecting "Duplicate," and adjusting the conditions and actions for subsequent checks. This way, you can quickly build a sequence of four distinct if statements within the loop.
+
+![Loop with if statements](./figures/screenshot11-loop-ifs.png)
+*The robot follows a loop where it performs distinct actions at each iteration—honking, acting happy, ringing a doorbell, and appearing sad, based on the counter value.*
 
 ## Final Thoughts
 
