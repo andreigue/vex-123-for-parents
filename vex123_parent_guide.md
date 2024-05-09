@@ -530,11 +530,24 @@ To enhance the capabilities of our loops, we can also utilize logical operators 
 Here's how you might incorporate logical operators into your loops:
 
 - **"While NOT (object found)"**: This loop will keep the robot moving forward until it detects an object. The use of `not` here negates the condition, meaning the loop runs as long as the condition (object found) is false.
-- **"While (object found) OR (counter is less than 4)"**: This condition provides two scenarios where the loop can continue. It combines the presence of an object with the counter’s value, making the loop more versatile. The loop continues if either condition is met — either an object is found or the counter hasn’t reached 4.
+- **"While (no object found) AND (counter is less than 4)"**: This condition ensures that the robot will continue to move forward as long as it hasn't encountered an obstacle and the counter indicating the number of moves made is still below four. This condition combines two checks: whether an object is in the robot's path and whether the movement count is still under four. For the loop to continue, both conditions must be true at the same time. If "no object found" becomes false (meaning an object is detected) or "counter is less than 4" becomes false (meaning the counter has reached four), the loop will stop. The "and" operator ensures that the loop only continues as long as there are no obstacles and the maximum number of moves hasn’t been reached, making it ideal for controlled navigation tasks.
 
-Logical operators allow us to create more complex and interactive programs, enhancing the robot's decision-making abilities. It's a bit like setting rules for a game where multiple conditions can change the outcome of each turn.
+Let's go over a practical example:
 
-Incorporating these into a "while" loop not only mimics more advanced coding practices but also enriches the programming experience by allowing for complex, condition-driven behaviors in our robotic projects.
+1. Start by taking out the `counter < 4` condition from the "while" loop. Simply click and drag it aside, freeing up space for our new, complex condition.
+2. Navigate to the "Operators" section and select the and block, which has two input slots for conditions. Drag this block into the condition area of your "while" loop.
+3. Take the `counter < 4` condition you set aside earlier and connect it to the left slot of the and operator. This condition will ensure the loop executes a set number of times.
+4. Drag the `not` operator from the "Operators" section and place it into the right slot of the and block.
+5. Go to the "Sensing" category and find the "eye found an object?" block. This block detects objects in front of the robot. Place this block inside the `not` operator. 
+
+This setup now reads: while the counter is less than four, and no object is detected, the robot should continue executing the loop commands.
+
+Here's what your program should look like now:
+
+![Loop with logical operator](./figures/screenshot10-and-operator.png)
+*The code directs the robot to continue moving and turning as long as it has completed fewer than four turns and no object is detected ahead.*
+
+Logical operators allow us to create more complex and interactive programs, enhancing the robot's decision-making abilities. This approach makes the robot's behavior more dynamic, allowing it to respond to its surroundings while keeping track of how many turns it has made.
 
 ### Combining loops with if statements
 
