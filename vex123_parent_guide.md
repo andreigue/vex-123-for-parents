@@ -482,7 +482,7 @@ We can also use variables here. Say we have a variable named `counter`, and `cou
 For example, we can have a condition as follows:
 
 ![Condition statement with if](./figures/screenshot6-explaining-conditions.png)
-*Since the statement "0 > 50" is false, the program will not enter the if statement, and the robot will not do anything.*
+*Since the statement "0 > 50" is false, the program will not enter the if statement, and the robot will not do anything. Change the 0 to a 51, and see what happens!*
 
 It's a very similar story with the while loop. But this time, let's create a variable instead of directly comparing two numbers.
 
