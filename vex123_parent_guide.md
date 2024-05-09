@@ -59,6 +59,8 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 
 [Introducing the while loop](#introducing-the-while-loop)
 
+- [Drawing a square with a "while loop"](#drawing-a-square-with-a-while-loop)
+- [Beyond simple repetition: logical operators](#beyond-simple-repetition-logical-operators)
 - [Combining loops with if statements](#combining-loops-with-if-statements)
 
 [Final Thoughts](#final-thoughts)
@@ -550,7 +552,6 @@ Here's what your program should look like now:
 Logical operators allow us to create more complex and interactive programs, enhancing the robot's decision-making abilities. This approach makes the robot's behavior more dynamic, allowing it to respond to its surroundings while keeping track of how many turns it has made.
 
 ### Combining loops with if statements
-
 
 ## Final Thoughts
 
