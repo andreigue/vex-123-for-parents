@@ -444,10 +444,14 @@ You now have a variable, or a "box", labeled `numberOfTurnsCompleted`, but it's 
 
 To assign a value to this variable, use the block "set `numberOfTurnsCompleted` to 0". This action places the number 0 inside your `numberOfTurnsCompleted` variable.
 
+![Nested if example sequence](./figures/variable1.jpg)
+*The robot's journey is a decision-making adventure: it moves forward until it meets an obstacle, then checks left: if it's clear, it turns left; if not, it turns right.*
 [same illustrations of box with a label `numberOfTurnsCompleted` with number 0 inside]
 
 Variables are named to reflect meaningful elements in your code or real-world values, and they are especially useful for tracking changes over time. For example, a variable might represent the number of laps a runner completes, the score in a game, or even the temperature on a thermostat. In the case of our robot, the variable `numberOfTurnsCompleted` keeps count of each turn the robot makes, updating from 0 to 1, 2, 3, and so on, similar to adding items to a box or updating a tally.
 
+![Nested if example sequence](./figures/variable2.jpg)
+*The robot's journey is a decision-making adventure: it moves forward until it meets an obstacle, then checks left: if it's clear, it turns left; if not, it turns right.*
 [illustration of same box with 0 leaving, and 1 coming in]
 
 For now, this variable might not seem like it’s doing much, but soon we'll use it to make our robot behave differently based on how many turns it has completed. This ability to dynamically change the information stored in a variable is what makes them so powerful in programming.
@@ -456,8 +460,10 @@ For now, this variable might not seem like it’s doing much, but soon we'll use
 
 In programming, loops let us repeat actions easily. We've already used the "repeat" block for looping a set number of times. Now, let's look at the "while loop", which is common in many programming languages.
 
-Think of a "while loop" as a way to keep doing something as long as a certain condition remains true. For example, imagine your brother has a big test coming up, and he concentrates best with classical music playing in the background. You decide to help by setting a rule: "While my brother is studying, I will play the piano." In programming terms, this would look something like:
+Think of a "while loop" as a way to keep doing something as long as a certain condition remains true. For example, imagine your brother has a big test coming up, and he concentrates best with classical music playing in the background. You decide to help by setting a rule: "While my brother is studying, I will play the piano." In programming terms, this would look something like this:
 
+![Nested if example sequence](./figures/play-piano.jpg)
+*The robot's journey is a decision-making adventure: it moves forward until it meets an obstacle, then checks left: if it's clear, it turns left; if not, it turns right.*
 [illustration of VEX online coder blocks, showing code for : while brother is studying, place one piece on the piano]
 
 Here, "brother is studying" serves as the condition, and "play one classical piece on the piano" is the action you perform. After each song, you check again to see if your brother is still studying. If he stops, the condition "brother is studying" becomes false, and you stop playing, thus exiting the loop.
@@ -491,7 +497,7 @@ It's a very similar story with the while loop. But this time, let's create a var
 1. We create a variable named `counter` and initially set it to 0; think of it as our starting point.
 2. Our "while loop" will use a comparison operator to check: "While counter is less than 4", we'll ask the robot to move and turn.
 
-![Condition statement with while loop](./figures/screenshot7-loop-counter.png)
+![Condition statement with while loop](./figures/screenshot7-loop-counter.jpg)
 *Since the statement "counter < 4" is true, the program will enter the while loop, and the robot will move forward by 1 step, non-stop.*
 
 This is known as an infinite while loop. The variable `counter` is set to 0 initially, and the program checks "Is `counter` less than 4?". Since it is, the program enters the while loop. When the program reaches the last line of the loop, it comes back to the top, and asks again: "Is `counter` less than 4?". So on and so forth indefinitely.
@@ -500,7 +506,7 @@ The solution is to increment `counter` after each iteration of the loop. After e
 
 Ultimately, "incrementing" a value requires us to "change" the value, and that is exactly the block that we will need to drag on the VEXcode 123 platform.
 
-![Loop incrementing counter](./figures/screenshot8-counter-increment.png)
+![Loop incrementing counter](./figures/screenshot8-counter-increment.jpg)
 *We use the "change" block in order to add 1 to the counter each time the loop is entered.*
 
 This process ensures that once counter reaches 4, the condition counter < 4 becomes false, effectively stopping the loop after the robot completes the square. Each increment moves us one step closer to ending the loop, preventing it from becoming infinite and allowing the robot to finish drawing the square precisely four times.
@@ -564,6 +570,6 @@ Taking what we've previously set up with the while loop and `counter`, we now in
 
 In this guide, your child started with basic commands using the touch buttons on the VEX 123 robot and progressed to more complex programming with the Coder cards. They've tackled "if-else" statements, discovered the power of loops, and learned how to combine different commands to control the robot's actions effectively. For more ideas and activities to extend their learning journey with the VEX 123, visit [VEX 123 Activities](https://education.vex.com/stemlabs/123/activities).
 
-As they grow and look for new challenges, the VEX Go kit serves as an ideal next step. Aimed at children aged 8-9, VEX Go builds on the foundational skills from VEX 123, offering more advanced projects and deeper programming concepts.
+As they grow and look for new challenges, the VEX Go kit serves as an ideal next step. Aimed at children aged 8-9, [VEX Go](https://www.vexrobotics.com/go) builds on the foundational skills from VEX 123, offering more advanced projects and deeper programming concepts.
 
 This exploration of robotics and coding opens up a world of creativity and problem-solving. With each step, your child is laying the groundwork for a strong understanding of STEM, ready to dive into more complex and rewarding projects.
