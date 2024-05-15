@@ -17,14 +17,14 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 
 - [Exercise 1: First steps](#exercise-1-first-steps)
 - [Exercise 2: Sequence of moves](#exercise-2-sequence-of-moves)
-- [Exercise 3: Predicting the movement](#exercise-3-predicting-the-movement)
+- [Exercise 3: Predicting the destination](#exercise-3-predicting-the-destination)
 - [Exercise 4: Avoiding obstacles](#exercise-4-avoiding-obstacles)
 
 [Coding with the VEX 123 Coder](#coding-with-the-vex-123-coder)
 
 - [Exercise 5: Basic movements with cards](#exercise-5-basic-movements-with-cards)
 - [Exercise 6: Combining different cards](#exercise-6-combining-different-cards)
-- [Exercise 7: Getting emotional about obstacles](#exercise-7-getting-emotional-about-obstacles)
+- [Exercise 7: Navigating narrow paths](#exercise-7-navigating-narrow-paths)
 
 [Introducing Conditional Logic: If Statements](#introducing-conditional-logic-if-statements)
 
@@ -136,7 +136,7 @@ The goal is to program the robot to reach the top right tile, exploring differen
 ![Robot moving](./figures/path.jpg)
 *Robot moving from one side of the field to the other with one possible set of commands that instruct it to get there.*
 
-### Exercise 3: Predicting the movement
+### Exercise 3: Predicting the destination
 
 This exercise shifts focus to prediction and critical thinking. Using the VEX 123 field, your child will now predict the robot's final position after a series of commands.
 
@@ -179,7 +179,7 @@ To increase the challenge, consider adding multiple obstacles to the field. This
 
 ## Coding with the VEX 123 Coder
 
-The VEX 123 Coder and its Coder Cards transition from the robot's touch buttons to a visually intuitive format for programming. The cards remove the need to remember button sequences by clearly showing each command, making it simpler to control the robot and create complex sequences. With the Coder, children can move beyond basic commands to explore more advanced programming concepts such as control flow.
+The VEX 123 Coder and its Coder Cards transition from the robot's touch buttons to a visually intuitive format for programming. The cards remove the need to remember button sequences by clearly showing each command, making it simpler to control the robot and create complex sequences. With the Coder, children can move beyond basic commands to explore more advanced programming concepts.
 
 Once batteries are inserted in the VEX Coder, you can turn it on by pressing the Start button. To connect the Coder to the robot, press and hold the (green) Start and (red) Stop buttons on the Coder and the Left and Right buttons on the Robot for 5 seconds until the yellow lights appear, signaling the start of the pairing process. You only need to pair them once, and they will stay connected for subsequent uses.
 
@@ -207,7 +207,7 @@ For an in depth guide about stepping, visit [Stepping Through a Project with the
 
 ### Exercise 6: Combining different cards
 
-Now, let's add more variety to your robot's movements by incorporating other types of cards into your sequences. This introduces the concept of combining movements with actions (the green cards), sounds and looks (the two shades of purple), and execution pauses (the grey cards), adding a layer of complexity and fun to your coding projects.
+Now, let's add more variety to your robot's movements by incorporating other types of cards into your sequences. This introduces the concept of combining movements with actions (the green cards), sounds and color display (the two purple cards), and execution pauses (the grey cards), adding a layer of complexity and fun to your coding projects.
 
 To explore the full range of Coder cards, excluding the orange and red cards for now, visit the [VEX Coder Card Reference Guide](https://kb.vex.com/hc/en-us/articles/360055264691-VEX-Coder-Card-Reference-Guide).
 
@@ -225,9 +225,9 @@ When they've had enough of experimenting on their own, give them this first chal
 ![Bottom left to top right](./figures/ex6-2-turn-emotion.jpg)
 *The robot starts at the bottom left corner and reaches the top right corner using these commands.*
 
-### Exercise 7: Getting emotional about obstacles
+### Exercise 7: Navigating narrow paths
 
-Building on previous experiences with obstacles, this exercise challenges your child to use the VEX Coder and its diverse cards to navigate around obstacles on the field. This time, your child will use the "drive until object" card to steer clear of obstacles and make the robot's journey more fun with sound (purple cards) and action (green cards).
+Building on previous experiences with obstacles, this exercise challenges your child to use the VEX Coder and its diverse cards to navigate around obstacles on the field.
 
 1. Arrange multiple obstacles on the field to create a maze-like setup that the robot must navigate through to reach its destination.
 2. Guide your child in planning a route around the obstacles, ensuring the "drive until object" card is used at least once for obstacle detection and navigation.
@@ -240,7 +240,7 @@ Building on previous experiences with obstacles, this exercise challenges your c
 
 Conditional logic, often represented by "if" statements, is a fundamental concept in programming that allows decisions to be made based on certain conditions. For example, consider your weekend plans: if it's sunny, you might go to the park; if it rains, you might stay home and watch a movie. In a similar way, think about choosing your outfit: if it's sunny, you wear shorts and a t-shirt; if it's raining, you put on warm clothes and take an umbrella. These everyday decisions are based on "if-then" logic, which is essential in coding too.
 
-![If rain](./figures/if-rain.jpg.jpg)
+![If rain](./figures/if-rain.jpg)
 *We use the "if" condition in our day-to-day lives.*
 
 In the context of the VEX 123 Coder, "if" cards enable your child to program the robot to react differently depending on what it senses in its environment. Each "if" card corresponds to a specific condition, such as detecting an object, identifying a color, or sensing a button press. When the robot encounters the specified condition, it will execute the command associated with that "if" card.
