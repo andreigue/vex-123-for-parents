@@ -5,7 +5,7 @@ author: "Andrei Guevorkian"
 illustrator: "Dengyijia Liu"
 ---
 
-Welcome to the playful world of VEX 123! This is where your child can take their first steps into coding and robotics, all while having a ton of fun. As a parent, you might wonder how you can help your little one get the most out of the VEX 123 Robot. Don't worry; this guide is here to walk you through just that. It offers a comprehensive walkthrough from setting up your VEX 123 Robot and programming with its touch buttons, to advancing with VEX Coder Cards, and exploring the endless possibilities with VEXcode 123, the online platform that provides even more flexibility and control for young coders. Accompanied by a series of progressively challenging exercises, this guide introduces key programming concepts like conditional logic and loops, engaging and in-depth learning experience.
+Welcome to the playful world of VEX 123! This is where your child can take their first steps into coding and robotics, all while having a ton of fun. As a parent, you might wonder how you can help your little one get the most out of the VEX 123 Robot. Don't worry; this guide is here to walk you through just that. It guides you through everything from setting up the VEX 123 Robot and using its touch buttons for basic programming, to exploring more complex projects with VEX Coder Cards and the VEXcode 123 online platform, which offers greater flexibility and control. This guide provides an engaging and in-depth learning experience, introducing key programming concepts like conditional logic and loops through a series of progressively challenging exercises.
 
 ## Table of Contents
 
@@ -53,11 +53,11 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 - [Connecting your robot with bluetooth](#connecting-your-robot-with-bluetooth)
 - [Navigating the VEXcode 123 interface](#navigating-the-vexcode-123-interface)
 
-[Nested if](#nested-if)
+[Nested "if"](#nested-if)
 
-[Introducing variables](#introducing-variables)
+[Introducing Variables](#introducing-variables)
 
-[Introducing the while loop](#introducing-the-while-loop)
+[Introducing the While Loop](#introducing-the-while-loop)
 
 - [Drawing a square with a "while loop"](#drawing-a-square-with-a-while-loop)
 - [Beyond simple repetition: logical operators](#beyond-simple-repetition-logical-operators)
@@ -421,7 +421,7 @@ The empty space in the 'if' block is designed to fit a condition. This space has
 
 Encourage your child to create programs longer than 10 blocks and explore functionalities beyond what was possible with the Coder. Spend some time in sections like Drivetrain, Sound, Actions, Control, and Sensing. Not every block will be familiar yet, so stick to experimenting with the blocks they understand.
 
-## Nested if
+## Nested "if"
 
 After your child has had a chance to experiment and create their own code, it's a good opportunity to delve into the concept of nested "if" statements together. Nested "if" statements are like a set of choices within choices. Imagine your child deciding what to play with: if it's sunny, they might go outside. But if they find their bike's tire is flat, they decide to play soccer instead. Each "if" leads to another "if", like a branching path where each step depends on the outcome of the previous one. This is how we can make a program, or our robot in this case, make a series of decisions that depend on different conditions.
 
@@ -430,7 +430,7 @@ Discuss with your child each step the robot takes, asking questions like "What w
 ![Nested if example sequence](./figures/screenshot5-nested-ifs.jpg)
 *The robot's journey is a decision-making adventure: it moves forward until it meets an obstacle, then checks left: if it's clear, it turns left; if not, it turns right.*
 
-## Introducing variables
+## Introducing Variables
 
 In programming, variables act like labeled boxes that store information. Just as you might use a box labeled "holiday decorations" to store specific items, variables in coding keep track of data that your program needs to remember.
 
@@ -456,7 +456,7 @@ Variables are named to reflect meaningful elements in your code or real-world va
 
 For now, this variable might not seem like it’s doing much, but soon we'll use it to make our robot behave differently based on how many turns it has completed. This ability to dynamically change the information stored in a variable is what makes them so powerful in programming.
 
-## Introducing the while loop
+## Introducing the While Loop
 
 In programming, loops let us repeat actions easily. We've already used the "repeat" block for looping a set number of times. Now, let's look at the "while loop", which is common in many programming languages.
 
