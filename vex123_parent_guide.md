@@ -416,7 +416,7 @@ Finally, let's go over the **if** statement.
 
 The empty space in the 'if' block is designed to fit a condition. This space has a distinctive elongated hexagonal shape. In the cyan-colored "Sensing" section, you’ll find blocks with this same shape. These are designed to fit as conditions in the 'if' statement.
 
-![Example sequence with if](./figures/screenshot4-if-statement.png)
+![Example sequence with if](./figures/screenshot4-if-statement.jpg)
 *A complete 'if' sequence where the robot checks for an object before proceeding.*
 
 Encourage your child to create programs longer than 10 blocks and explore functionalities beyond what was possible with the Coder. Spend some time in sections like Drivetrain, Sound, Actions, Control, and Sensing. Not every block will be familiar yet, so stick to experimenting with the blocks they understand.
@@ -552,7 +552,7 @@ This setup now reads: while the counter is less than four, and no object is dete
 
 Here's what your program should look like now:
 
-![Loop with logical operator](./figures/screenshot10-and-operator.png)
+![Loop with logical operator](./figures/screenshot10-and-operator.jpg)
 *The code directs the robot to continue moving and turning as long as it has completed fewer than four turns and no object is detected ahead.*
 
 Logical operators allow us to create more complex and interactive programs, enhancing the robot's decision-making abilities. This approach makes the robot's behavior more dynamic, allowing it to respond to its surroundings while keeping track of how many turns it has made.
