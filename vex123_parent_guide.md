@@ -50,7 +50,7 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 
 [Diving into VEXcode 123](#diving-into-vexcode-123)
 
-- [Connecting your robot with bluetooth](#connecting-your-robot-with-bluetooth)
+- [Connecting your robot with Bluetooth](#connecting-your-robot-with-bluetooth)
 - [Navigating the VEXcode 123 interface](#navigating-the-vexcode-123-interface)
 
 [Nested "if"](#nested-if)
@@ -312,10 +312,10 @@ Please note that the "end if" card plays a crucial role in defining the boundari
 
 ## Exploring Loops
 
-A loop is a fundamental programming concept that allows us to repeat certain sections of code multiple times without having to rewrite them. This is particularly useful in robotics, as it allows a robot to perform continuous actions without a lengthy code. With the VEX 123 Coder, the 'Go to start' card plays a crucial role in creating these loops. Once the programmed sequence reaches this card, it loops back to the beginning - just as the name suggests - enabling the robot to carry out its instructions indefinitely.
+A loop is a fundamental programming concept that allows us to repeat certain sections of code multiple times without having to rewrite them. This is particularly useful in robotics, as it allows a robot to perform continuous actions without writing lengthy code. With the VEX 123 Coder, the "go to start" card plays a crucial role in creating these loops. Once the programmed sequence reaches this card, it loops back to the beginning, just as the name suggests, allowing the robot to carry out its instructions indefinitely.
 
 ![Loop](./figures/loop.jpg)
-*Coder sequence with a 'go to start' card, illustrating how looping works through repeated code execution.*
+*Coder sequence with a "go to start" card, illustrating how looping works through repeated code execution.*
 
 ### Exercise 11: Non-stop merry-go-round
 
@@ -323,7 +323,7 @@ In this exercise, we'll use the power of loops to create continuous, circular mo
 
 1. Begin by programming the robot to "drive until object".
 2. Once it reaches the obstacle, have it "turn around" to face the opposite direction.
-3. Add the "Go to start" card at the end of the sequence. The robot will now keep repeating this back-and-forth motion, just like a pendulum swinging between two points.
+3. Add the "go to start" card at the end of the sequence. The robot will now keep repeating this back-and-forth motion, just like a pendulum swinging between two points.
 
 ![Back and forth](./figures/ex12-straight-path.jpg)
 *Robot moving back and forth between two obstacles.*
@@ -332,34 +332,34 @@ Now, let's expand this concept to create a continuous circular path embodying th
 
 1. Start by programming the robot to move forward (by 1 or 2 squares).
 2. Next, the robot should turn left. This pattern will make the robot trace one side of a square and be ready to trace the next side.
-3. Keep the "Go to start" card at the end of this new sequence. As the robot follows this loop, it will continually move forward and turn, tracing a square path that mimics a circular, merry-go-round pattern.
+3. Place the "go to start" card at the end of this new sequence. As the robot follows this loop, it will continually move forward and turn, tracing a square path that mimics a circular, merry-go-round pattern.
 
-Once you've seen enough, stop the loop by pressing on the red square button on the VEX Coder.
+When ready to stop the loop, press the red square button on the VEX Coder.
 
 ![Sequence exercise 11](./figures/ex11-drive-circle.jpg)
 *The robot will drive forward, turn left, and repeat this forever, thus tracing a square path.*
 
 ### Exercise 12: The endless bump-a-thon
 
-This exercise promises a lot of fun, and it's a chance for you, the parent, to actively guide your child through the programming. The aim is to program the robot to move straight until it bumps into an obstacle, react with a crash sound and some action (such as acting sad), and then make a random turn to continue and repeat its journey. Help your child think about how to use the "Go to start" card for the loop, and in case they have trouble, help them find the blue "turn random" card.
+This exercise promises a lot of fun, and it's a chance for you, the parent, to actively guide your child through the programming. The aim is to program the robot to move straight until it bumps into an obstacle, react with a crash sound and some action (such as acting sad), and then make a random turn to continue and repeat its journey. Help your child think about how to use the "go to start" card for the loop, and in case they have trouble, help them find the blue "turn random" card.
 
 ![Random crashes](./figures/ex12-2-random-path.jpg)
 *One possible trajectory of the infinite loop of random movements.*
 
 ## Exiting Loops Programmatically
 
-So far, we've been stopping loops manually by pressing the red square button on the Coder. Such loops are known in programming as "infinite loops" because they can continue indefinitely if not interrupted. To stop a loop through programming, we introduce a new tool: the "stop" card. When the program reaches the "stop" card, it completely stops the program, much like when you press the red square button on the Coder. Try recreating Exercise 13 to see the "stop" card in action.
+So far, we've been stopping loops manually by pressing the red square button on the Coder. Such loops are known in programming as "infinite loops" because they can continue indefinitely if not interrupted. To stop a loop through programming, we introduce a new tool: the "stop" card. When the program reaches the "stop" card, it completely stops the program, much like when you press the red square button on the Coder. Recreate Exercise 13 to see the "stop" card in action.
 
 ### Exercise 13: Stop right there
 
-Let's see the "stop" card in action. We've set up a sequence where the robot moves forward and uses its sensors to look for objects. If it finds something in its way, it gives a signal by playing the doorbell sound. Right after the signal, the "stop" card comes into play, telling the robot to halt everything it's doing, and exit the program. This mimics the same effect as manually pressing the red square button on the Coder, but it's all handled through programming.
+Let's see the "stop" card in action. We've set up a sequence where the robot moves forward and uses its sensors to look for objects. If it finds something in its way, it plays a doorbell sound. Then, the "stop" card is reached, telling the robot to halt everything it's doing and exit the program. This mimics the same effect as manually pressing the red square button on the Coder, but it's all handled through programming.
 
 ![Sequence exercise 13](./figures/ex13-stop.jpg)
 *The robot moves one step at a time, until it encounters an object, at which point it rings the doorbell and stops the code.*
 
 ## Combining What We've Learned
 
-All the hard learning is done now! Your child has navigated through basic commands, tackled logical "if" and "else" statements, and harnessed the power of loops. They've now got a solid foundation to blend these elements in increasingly sophisticated ways. Let's put all these skills to the test in our final exercise!
+All the hard learning is done now! Your child has navigated through basic commands, tackled logical "if" and "else" statements, and harnessed the power of loops. They now have a solid foundation to blend these elements in increasingly sophisticated ways. Let's put all these skills to the test in our final exercise!
 
 ### Exercise 14: Predicting code
 
@@ -371,7 +371,7 @@ This final exercise is a practical test to see if your child can predict the flo
 4. Activate the program and watch the robot in action. Use the orange Step button together to track each step and confirm the sequence's flow.
 
 ![Sequence exercise 14](./figures/ex14-colored-obstacles.jpg)
-*Sequence checking for all 3 colors, and having the robot act different depending on the color in front.*
+*Sequence checking for all 3 colors, and having the robot act differently depending on the color in front.*
 
 If your child can read and comprehend the program, they are showing a readiness to progress in their coding journey, fully equipped to tackle the next challenges that await.
 
@@ -379,7 +379,7 @@ If your child can read and comprehend the program, they are showing a readiness 
 
 After mastering the basics of VEX 123 with hands-on coding, it's time to explore VEXcode 123, an easy-to-use, drag-and-drop online platform. This tool allows your child to expand their coding capabilities by connecting the VEX 123 robot to a computer via Bluetooth. They can now create and run more complex programs that go beyond the ten-card limit of the physical Coder. VEXcode 123 provides a user-friendly interface that enhances their programming experience, giving your child the tools to build on the coding fundamentals they've already developed.
 
-### Connecting your robot with bluetooth
+### Connecting your robot with Bluetooth
 
 Open VEXcode 123 on your browser (by visiting https://code123.vex.com/) and check that your computer's Bluetooth is on. Then, simply click on the 'Connect' button, which will prompt you to select your robot from the list of available devices. Ensuring your robot is on and nearby will facilitate an easy connection.
 
@@ -397,17 +397,18 @@ Here is an example program which your child should easily be able to understand 
 
 > Manually stop the execution of the code by pressing the 'Stop' button.
 
-And here's another example that builds on what they've learned. If there's any confusion, remind them about the "Go to start" card which reinitiates the sequence:
+And here's another example that builds on what they've learned. If there's any confusion, remind them about the "go to start" card which reinitiates the sequence:
 
 1. Navigate to the yellowish-orange "Control" section and drag the "repeat 10" block.
 2. Modify it to repeat 3 times.
 3. Add the "glow green" block into this loop, and observe how it automatically carries any blocks placed beneath it into the loop.
 4. Place the "act sad" block (together with "play sound") below the loop so these actions occur only once the loop completes.
+5. Finally, always add the "stop project" block in order to not have to manually click on the 'Stop' button.
 
 ![Example sequence with repeat](./figures/screenshot2-loop-commands.png)
 *This setup repeats three times before concluding with a drama show and a honk.*
 
-Finally, let's go over the **if** statement.
+Finally, let's go over the "if" statement.
 
 1. From the "Control" section, drag the "if <> then" block.
 2. Place it after the "drive forward" block.
