@@ -373,7 +373,7 @@ This final exercise is a practical test to see if your child can predict the flo
 ![Sequence exercise 14](./figures/ex14-colored-obstacles.jpg)
 *Sequence checking for all 3 colors, and having the robot act differently depending on the color in front.*
 
-If your child can read and comprehend the program, they are showing a readiness to progress in their coding journey, fully equipped to tackle the next challenges that await.
+If your child can read and comprehend the program, they are showing a readiness to progress in their coding journey, fully equipped to tackle the next challenges that await. If you still need more ideas and activities to extend their learning journey with the VEX 123, visit [VEX 123 Activities](https://education.vex.com/stemlabs/123/activities).
 
 ## Diving into VEXcode 123
 
@@ -567,7 +567,7 @@ Taking what we've previously set up with the while loop and `counter`, we now in
 
 ## Final Thoughts
 
-In this guide, your child started with basic commands using the touch buttons on the VEX 123 robot and progressed to more complex programming with the Coder cards. They've tackled "if-else" statements, discovered the power of loops, and learned how to combine different commands to control the robot's actions effectively. For more ideas and activities to extend their learning journey with the VEX 123, visit [VEX 123 Activities](https://education.vex.com/stemlabs/123/activities).
+In this guide, your child started with basic commands using the touch buttons on the VEX 123 robot and progressed to more complex programming with the Coder cards. They've tackled "if-else" statements, discovered the power of loops, and learned how to combine different commands to control the robot's actions effectively. Additionally, they explored VEXcode 123, the online block programming platform, to further expand their coding skills and get a feel for what actual programming is like.
 
 As they grow and look for new challenges, the VEX Go kit serves as an ideal next step. Aimed at children aged 8-9, [VEX Go](https://www.vexrobotics.com/go) builds on the foundational skills from VEX 123, offering more advanced projects and deeper programming concepts.
 
