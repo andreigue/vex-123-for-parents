@@ -459,7 +459,7 @@ For now, this variable might not seem like it’s doing much, but soon we'll use
 
 ## Introducing the While Loop
 
-In programming, loops let us repeat actions easily. We've already used the "repeat" block for looping a set number of times. Now, let's look at the "while loop", which is common in many programming languages.
+In programming, loops let us repeat actions easily. We've already used the "repeat" block to loop a set number of times. Now, let's look at the "while loop", which is common in many programming languages.
 
 Think of a "while loop" as a way to keep doing something as long as a certain condition remains true. For example, imagine your brother has a big test coming up, and he concentrates best with classical music playing in the background. You decide to help by setting a rule: "While my brother is studying, I will play the piano." In programming terms, this would look something like this:
 
@@ -468,7 +468,7 @@ Think of a "while loop" as a way to keep doing something as long as a certain co
 
 Here, "brother is studying" serves as the condition, and "play one piece on the piano" is the action you perform. After each song, you check again to see if your brother is still studying. If he stops, the condition "brother is studying" becomes false, and you stop playing, thus exiting the loop.
 
-In VEXcode 123, the condition for a "while loop" fits into the diamond-shaped slot in the block, similar to how conditions are used in "if" statements. You insert a condition that the computer evaluates before each iteration of the loop. If the condition evaluates as true, the loop continues; if it turns out to be false, the loop ends.
+In VEXcode 123, the condition for a "while loop" fits into the diamond-shaped slot in the block, similar to how conditions are used in "if" statements. You insert a condition that the computer evaluates before each iteration of the loop. If the condition evaluates to true, the loop continues; if it turns out to be false, the loop ends.
 
 ### Drawing a square with a "while loop"
 
@@ -480,7 +480,7 @@ However, we need a way to tell the robot when to stop looping. This is where com
 - \> (greater than)
 - == (equal to)
 
-For example, `3 > 5` is a false statement, while `13 > 10` is true.
+For example, `3 > 5` is a false statement, while `13 < 16` is true.
 
 We can also use variables here. Say we have a variable named `counter`, and `counter` is set to `14`, i.e. we place the number 14 in a box labeled "counter". The statement `counter > 21`, which simplifies down to `14 > 21`, is false, while `counter > 0`, which simplifies to `14 > 0`, is true.
 
@@ -488,6 +488,8 @@ For example, we can have a condition as follows:
 
 ![Condition statement with if](./figures/screenshot6-explaining-conditions.png)
 *Since the statement "0 > 50" is false, the program will not enter the if statement, and the robot will not do anything. Change the 0 to a 51, and see what happens!*
+
+> You can find the green "0 > 50" comparison operator block the "Operators" section. Notice its hexagonal shape, hinting at where it is meant to go in your code. Hexagonal code blocks always result in either "true" or "false".
 
 It's a very similar story with the while loop. But this time, let's create a variable instead of directly comparing two numbers.
 
@@ -497,16 +499,16 @@ It's a very similar story with the while loop. But this time, let's create a var
 ![Condition statement with while loop](./figures/screenshot7-loop-counter.jpg)
 *Since the statement "counter < 4" is true, the program will enter the while loop, and the robot will move forward by 1 step, non-stop.*
 
-This is known as an infinite while loop. The variable `counter` is set to 0 initially, and the program checks "Is `counter` less than 4?". Since it is, the program enters the while loop. When the program reaches the last line of the loop, it comes back to the top, and asks again: "Is `counter` less than 4?". So on and so forth indefinitely.
+This is known as an infinite while loop. The variable `counter` is set to 0 initially, and the program checks "Is `counter` less than 4?". Since it is, the program enters the while loop. When the program reaches the last line of the loop, it returns to the top and asks again: "Is `counter` less than 4?". It is, and so the program enters the loop again. This process continues indefinitely.
 
-The solution is to increment `counter` after each iteration of the loop. After each turn, we increment counter by one. Each increment gets us closer to our stopping point, the completion of the square. We'll increase counter by one each time through the loop; this is known as incrementing.
+But we don't want it to continue indefinitely. The solution is to increment `counter` after each iteration of the loop. After each turn, we increment `counter` by one. Each increment brings the robot closer to finishing the square. We'll increase `counter` by one each time through the loop; this is known as incrementing.
 
 Ultimately, "incrementing" a value requires us to "change" the value, and that is exactly the block that we will need to drag on the VEXcode 123 platform.
 
 ![Loop incrementing counter](./figures/screenshot8-counter-increment.jpg)
-*We use the "change" block in order to add 1 to the counter each time the loop is entered.*
+*We use the "change" block to add 1 to the counter each time the loop is entered.*
 
-This process ensures that once counter reaches 4, the condition counter < 4 becomes false, effectively stopping the loop after the robot completes the square. Each increment moves us one step closer to ending the loop, preventing it from becoming infinite and allowing the robot to finish drawing the square precisely four times.
+This process ensures that once `counter` reaches 4, the condition `counter < 4` becomes false, effectively stopping the loop after the robot completes the square. Each increment moves us one step closer to ending the loop, preventing it from becoming infinite and allowing the robot to finish drawing the square precisely four times. The `counter` variable goes from 0, to 1, to 2, and stopping at 3.
 
 Here is the detailed explanation explaining how the counter controls the loop, ensuring the robot performs the exact number of moves and turns needed to draw a square and then stops.
 
@@ -514,8 +516,8 @@ Here is the detailed explanation explaining how the counter controls the loop, e
 2. **Check the Condition:** At the beginning of each loop iteration, the program checks the condition `counter < 4`. Since `counter` is initially 0, which is less than 4, the condition is true.
 3. **Execute the Actions:** With the condition being true, the robot proceeds to perform the programmed actions within the loop. In this case, it moves forward and then turns.
 4. **Increment the Counter:** After executing the actions, `counter` is incremented by 1. This incrementing step is crucial as it updates the number of turns the robot has completed. After the first turn, `counter` becomes 1.
-5. **Repeat the Check and Actions:** The loop now returns to step 2. The program re-evaluates the condition with the updated counter value. Since 1 is still less than 4, the loop continues, allowing the robot to perform the next move and turn.
-6. **Further Increments and Checks:** This cycle of checking the condition, executing actions, and incrementing the `counter` repeats. With each iteration, `counter` increases (2, then 3).
+5. **Repeat the Check and Actions:** The loop now returns to step 2. The program re-evaluates the condition with the updated `counter` value. Since 1 is still less than 4, the loop continues, allowing the robot to perform the next move and turn.
+6. **Further Increments and Checks:** This cycle of checking the condition, executing actions, and incrementing `counter` repeats. With each iteration, `counter` increases (2, then 3).
 7. **Condition Becomes False:** Once the robot completes the fourth turn, the counter is incremented to 4. At this point, when the loop checks the condition `counter < 4` again, the result is false because 4 is not less than 4.
 8. **Exit the Loop:** Because the condition is now false, the loop stops executing. The robot has successfully completed the square, making four turns as intended.
 
@@ -524,11 +526,11 @@ Please note that it is also possible to increment the counter in the following m
 ![Loop incrementing counter using + operator](./figures/screenshot9-counter-increment2.png)
 *We can also use the "set counter" block in order to add 1 to the previous counter value each time the loop is entered.*
 
-The last block in the loop updates the value of counter by adding 1 to its current value. So if counter was previously 1, it would now become 2 after this block executes.
+In this approach, the last block in the loop updates the value of `counter` by adding 1 to its current value. So if `counter` was previously 1, it would now become 2 after this block executes.
 
 ### Beyond simple repetition: logical operators
 
-So far, we've explored comparison operators that help determine whether a condition is met, such as whether a `counter` is less than 4. These operators are fundamental for making decisions in loops and if statements.
+So far, we've explored comparison operators that help determine whether a condition is met, such as whether a variable is less than 4. These operators are fundamental for making decisions in loops and if statements.
 
 To enhance the capabilities of our loops, we can also utilize logical operators like `not`, `and`, and `or`. These operators allow us to combine multiple conditions, creating more nuanced decision pathways for our programs. For example, a loop could continue as long as the `counter` is less than 4 AND no object is detected ahead, making the robot's actions more sensitive to its surroundings.
 
@@ -539,13 +541,13 @@ Here's how you might incorporate logical operators into your loops:
 
 Let's go over a practical example:
 
-1. Start by taking out the `counter < 4` condition from the "while" loop. Simply click and drag it aside, freeing up space for our new, complex condition.
-2. Navigate to the "Operators" section and select the and block, which has two input slots for conditions. Drag this block into the condition area of your "while" loop.
-3. Take the `counter < 4` condition you set aside earlier and connect it to the left slot of the and operator. This condition will ensure the loop executes a set number of times.
-4. Drag the `not` operator from the "Operators" section and place it into the right slot of the and block.
+1. Start by taking out the `counter < 4` condition from the "while" loop. Select it and drag it aside, freeing up space for our new, complex condition.
+2. Navigate to the "Operators" section and select the "and" block, which has two input slots for conditions. Drag this block into the condition area of your "while" loop.
+3. Take the `counter < 4` condition you set aside earlier and connect it to the left slot of the `and` operator. This condition will ensure the loop executes a set number of times.
+4. Drag the `not` operator from the "Operators" section and place it into the right slot of the "and" block.
 5. Go to the "Sensing" category and find the "eye found an object?" block. This block detects objects in front of the robot. Place this block inside the `not` operator.
 
-This setup now reads: while the counter is less than four, and no object is detected, the robot should continue executing the loop commands.
+This setup now reads "while the counter is less than four and no object is detected, the robot should continue executing the loop commands".
 
 Here's what your program should look like now:
 
@@ -558,7 +560,7 @@ Logical operators allow us to create more complex and interactive programs, enha
 
 Combining loops with conditional statements, or "if" statements, allows programs to react dynamically at different stages of the loop. This method is ideal for creating complex behaviors within automated sequences, such as having a robot perform different actions depending on the iteration or based on sensor inputs.
 
-Taking what we've previously set up with the while loop and `counter`, we now integrate multiple if statements to diversify the robot's actions during each loop iteration. Start by adding an if statement inside the while loop to check the counter value. You can easily create more conditional checks by right-clicking on the first if statement, selecting "Duplicate," and adjusting the conditions and actions for subsequent checks. This way, you can quickly build a sequence of four distinct if statements within the loop.
+Taking what we've previously set up with the while loop and `counter`, we now integrate multiple if statements to diversify the robot's actions during each loop iteration. Start by adding an if statement inside the while loop to check `counter`'s value. You can easily create more conditional checks by right-clicking on the first if statement, selecting "Duplicate," and adjusting the conditions and actions for subsequent checks. This way, you can quickly build a sequence of four distinct if statements within the loop.
 
 ![Loop with if statements](./figures/screenshot11-loop-ifs.png)
 *The robot follows a loop where it performs distinct actions at each iteration—honking, acting happy, ringing a doorbell, and appearing sad, based on the counter value.*
