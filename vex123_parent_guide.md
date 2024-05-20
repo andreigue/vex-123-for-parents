@@ -463,11 +463,10 @@ In programming, loops let us repeat actions easily. We've already used the "repe
 
 Think of a "while loop" as a way to keep doing something as long as a certain condition remains true. For example, imagine your brother has a big test coming up, and he concentrates best with classical music playing in the background. You decide to help by setting a rule: "While my brother is studying, I will play the piano." In programming terms, this would look something like this:
 
-![Nested if example sequence](./figures/play-piano.jpg)
-*The robot's journey is a decision-making adventure: it moves forward until it meets an obstacle, then checks left: if it's clear, it turns left; if not, it turns right.*
-[illustration of VEX online coder blocks, showing code for : while brother is studying, place one piece on the piano]
+![Play while studying](./figures/play-piano.jpg)
+*While brother is studying, play one piece on the piano.*
 
-Here, "brother is studying" serves as the condition, and "play one classical piece on the piano" is the action you perform. After each song, you check again to see if your brother is still studying. If he stops, the condition "brother is studying" becomes false, and you stop playing, thus exiting the loop.
+Here, "brother is studying" serves as the condition, and "play one piece on the piano" is the action you perform. After each song, you check again to see if your brother is still studying. If he stops, the condition "brother is studying" becomes false, and you stop playing, thus exiting the loop.
 
 In VEXcode 123, the condition for a "while loop" fits into the diamond-shaped slot in the block, similar to how conditions are used in "if" statements. You insert a condition that the computer evaluates before each iteration of the loop. If the condition evaluates as true, the loop continues; if it turns out to be false, the loop ends.
 
@@ -480,11 +479,8 @@ However, we need a way to tell the robot when to stop looping. This is where com
 - < (less than)
 - \> (greater than)
 - == (equal to)
-- != (not equal to)
-- <= (less than or equal to)
-- \>= (greater than or equal to)
 
-For example, `3 > 5` is a false statement, while `10 >= 10` is true.
+For example, `3 > 5` is a false statement, while `13 > 10` is true.
 
 We can also use variables here. Say we have a variable named `counter`, and `counter` is set to `14`, i.e. we place the number 14 in a box labeled "counter". The statement `counter > 21`, which simplifies down to `14 > 21`, is false, while `counter > 0`, which simplifies to `14 > 0`, is true.
 
