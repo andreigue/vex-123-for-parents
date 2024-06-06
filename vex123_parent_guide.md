@@ -5,7 +5,7 @@ author: "Andrei Guevorkian"
 illustrator: "Dengyijia Liu"
 ---
 
-Welcome to the playful world of VEX 123! This is where your child can take their first steps into coding and robotics, all while having a ton of fun. As a parent, you might wonder how you can help your little one get the most out of the VEX 123 Robot. Don't worry; this guide is here to walk you through just that. It offers a comprehensive walkthrough from setting up your VEX 123 Robot and programming with its touch buttons, to advancing with VEX Coder Cards, accompanied by a series of progressively challenging exercises that introduce key programming concepts like conditional logic and loops.
+Welcome to the playful world of VEX 123! This is where your child can take their first steps into coding and robotics, all while having a ton of fun. As a parent, you might wonder how you can help your little one get the most out of the VEX 123 Robot. Don't worry; this guide is here to walk you through just that. It guides you through everything from setting up the VEX 123 Robot and using its touch buttons for basic programming, to exploring more complex projects with VEX Coder Cards and the VEXcode 123 online platform, which offers greater flexibility and control. This guide provides an engaging and in-depth learning experience, introducing key programming concepts like conditional logic and loops through a series of progressively challenging exercises.
 
 ## Table of Contents
 
@@ -40,9 +40,28 @@ Welcome to the playful world of VEX 123! This is where your child can take their
 - [Exercise 11: Non-stop merry-go-round](#exercise-11-non-stop-merry-go-round)
 - [Exercise 12: The endless bump-a-thon](#exercise-12-the-endless-bump-a-thon)
 
+[Exiting Loops Programmatically](#exiting-loops-programmatically)
+
+- [Exercise 13: Stop right there](#exercise-13-stop-right-there)
+
 [Combining What We've Learned](#combining-what-weve-learned)
 
-- [Exercise 13: Checking for color](#exercise-13-checking-for-color)
+- [Exercise 14: Predicting code](#exercise-14-predicting-code)
+
+[Diving into VEXcode 123](#diving-into-vexcode-123)
+
+- [Connecting your robot with bluetooth](#connecting-your-robot-with-bluetooth)
+- [Navigating the VEXcode 123 interface](#navigating-the-vexcode-123-interface)
+
+[Nested "if"](#nested-if)
+
+[Introducing Variables](#introducing-variables)
+
+[Introducing the While Loop](#introducing-the-while-loop)
+
+- [Drawing a square with a "while loop"](#drawing-a-square-with-a-while-loop)
+- [Beyond simple repetition: logical operators](#beyond-simple-repetition-logical-operators)
+- [Combining loops with if statements](#combining-loops-with-if-statements)
 
 [Final Thoughts](#final-thoughts)
 
@@ -244,7 +263,7 @@ You might think the robot only performs the action right after detecting an obje
 
 And what happens if the robot does not encounter an object in front of it? Well, it will skip the lines after the "if", in this case, **play doorbell > turn left > drive 2 > turn around**.
 
-Now, what if you want the robot to execute something regardless of whether or not the "if" condition was satisfied. For example, at the end of it all, you want the robot to act happy, regardless of whether there it detected an object or not. To do so, we must incorporate the "end if" card. This card indicates to the Coder that the conditional sequence established by the "if" card has finished. Essentially, it closes off the conditional section. As a result, any actions placed after the "end if" card, such as "act happy," will be carried out irrespective of whether the initial "if" condition was met or not.
+Now, what if you want the robot to execute something regardless of whether or not the "if" condition was satisfied. For example, at the end of it all, you want the robot to act happy, regardless of whether there it detected an object or not. To do so, we must incorporate the "end if" card. This card indicates to the Coder that the conditional sequence established by the "if" card has finished. Essentially, it closes off the conditional section. As a result, any actions placed after the "end if" card, such as "act happy", will be carried out irrespective of whether the initial "if" condition was met or not.
 
 ![Sequence exercise 8-3](./figures/ex8-3-doorbell-happy.jpg)
 *The robot moves forward two tiles. If it finds an object, it rings the doorbell, turns, and moves away. Then, it acts happy, whether or not there was an object.*
@@ -325,27 +344,232 @@ This exercise promises a lot of fun, and it's a chance for you, the parent, to a
 ![Random crashes](./figures/ex12-2-random-path.jpg)
 *One possible trajectory of the infinite loop of random movements.*
 
+## Exiting Loops Programmatically
+
+So far, we've been stopping loops manually by pressing the red square button on the Coder. Such loops are known in programming as "infinite loops" because they can continue indefinitely if not interrupted. To stop a loop through programming, we introduce a new tool: the "stop" card. When the program reaches the "stop" card, it completely stops the program, much like when you press the red square button on the Coder. Try recreating Exercise 13 to see the "stop" card in action.
+
+### Exercise 13: Stop right there
+
+Let's see the "stop" card in action. We've set up a sequence where the robot moves forward and uses its sensors to look for objects. If it finds something in its way, it gives a signal by playing the doorbell sound. Right after the signal, the "stop" card comes into play, telling the robot to halt everything it's doing, and exit the program. This mimics the same effect as manually pressing the red square button on the Coder, but it's all handled through programming.
+
+![Sequence exercise 13](./figures/ex13-stop.jpg)
+*The robot moves one step at a time, until it encounters an object, at which point it rings the doorbell and stops the code.*
+
 ## Combining What We've Learned
 
-[ talk about how to stop a loop. For example, stop the loop once an object is encountered. use the "stop" card. stop will stop the entire program, including exiting the loop]
+All the hard learning is done now! Your child has navigated through basic commands, tackled logical "if" and "else" statements, and harnessed the power of loops. They've now got a solid foundation to blend these elements in increasingly sophisticated ways. Let's put all these skills to the test in our final exercise!
 
-### Exercise 13: Checking for color
+### Exercise 14: Predicting code
 
-Now we will try working with multiple "if" cards.
+This final exercise is a practical test to see if your child can predict the flow of a piece of code sequence. It's designed to be a relatively challenging puzzle, but if your child can crack it, they've mastered the concepts we've explored.
 
-1. Place colored objects (red, green, blue) at different points on the field.
-2. Guide your child to create a sequence using "if color detected" cards for each color, assigning specific actions for each one, such as turning or making a sound, and ending each sequence with an "end if" card.
-3. Watch how the robot identifies each color and performs the corresponding actions, showcasing its ability to make decisions based on color.
+1. Arrange your field to match the layout shown in the illustration.
+2. Insert the cards into the Coder as displayed.
+3. Have your child explain how they think the robot will move, asking them which card the Coder will read next and why.
+4. Activate the program and watch the robot in action. Use the orange Step button together to track each step and confirm the sequence's flow.
 
-![Sequence exercise 14](./figures/ex13-colored-obstacles.jpg)
+![Sequence exercise 14](./figures/ex14-colored-obstacles.jpg)
 *Sequence checking for all 3 colors, and having the robot act different depending on the color in front.*
 
-Now what what if the robot encounters neither of the colors? Well then it'll...
+If your child can read and comprehend the program, they are showing a readiness to progress in their coding journey, fully equipped to tackle the next challenges that await.
+
+## Diving into VEXcode 123
+
+After mastering the basics of VEX 123 with hands-on coding, it's time to explore VEXcode 123, an easy-to-use, drag-and-drop online platform. This tool allows your child to expand their coding capabilities by connecting the VEX 123 robot to a computer via Bluetooth. They can now create and run more complex programs that go beyond the ten-card limit of the physical Coder. VEXcode 123 provides a user-friendly interface that enhances their programming experience, giving your child the tools to build on the coding fundamentals they've already developed.
+
+### Connecting your robot with bluetooth
+
+Open VEXcode 123 on your browser (by visiting https://code123.vex.com/) and check that your computer's Bluetooth is on. Then, simply click on the 'Connect' button, which will prompt you to select your robot from the list of available devices. Ensuring your robot is on and nearby will facilitate an easy connection.
+
+![Connect robot](./figures/screenshot-connect-robot.png)
+*Click on 'ROBOT', then 'Connect' to start setting up the connection.*
+
+### Navigating the VEXcode 123 interface
+
+The VEXcode 123 platform is designed with intuitive drag-and-drop coding blocks, mirroring the physical VEX Coder Cards' simplicity. Recognize the 'Start,' 'Step,' and 'Stop' buttons in the top right corner. Try dragging and dropping some blocks from the left-hand side onto the canvas. It's mostly all the same as the Coder.
+
+Here is an example program which your child should easily be able to understand now that they've played with the Coder cards:
+
+![Basic example sequence](./figures/screenshot1-basic-commands.png)
+*Notice how you can adjust the number of steps and the degrees of rotation directly in the blocks. You can even switch from "steps" to "mm" by clicking on the default setting.*
+
+> Manually stop the execution of the code by pressing the 'Stop' button.
+
+And here's another example that builds on what they've learned. If there's any confusion, remind them about the "Go to start" card which reinitiates the sequence:
+
+1. Navigate to the yellowish-orange "Control" section and drag the "repeat 10" block.
+2. Modify it to repeat 3 times.
+3. Add the "glow green" block into this loop, and observe how it automatically carries any blocks placed beneath it into the loop.
+4. Place the "act sad" block (together with "play sound") below the loop so these actions occur only once the loop completes.
+
+![Example sequence with repeat](./figures/screenshot2-loop-commands.png)
+*This setup repeats three times before concluding with a drama show and a honk.*
+
+Finally, let's go over the **if** statement.
+
+1. From the "Control" section, drag the "if <> then" block.
+2. Place it after the "drive forward" block.
+3. Insert "act sad" (including "play sound") below the "if" block.
+
+![Example sequence with if](./figures/screenshot3-if-statement-incomplete.png)
+*Here's an incomplete 'if' statement, awaiting a condition.*
+
+The empty space in the 'if' block is designed to fit a condition. This space has a distinctive elongated hexagonal shape. In the cyan-colored "Sensing" section, you’ll find blocks with this same shape. These are designed to fit as conditions in the 'if' statement.
+
+![Example sequence with if](./figures/screenshot4-if-statement.jpg)
+*A complete 'if' sequence where the robot checks for an object before proceeding.*
+
+Encourage your child to create programs longer than 10 blocks and explore functionalities beyond what was possible with the Coder. Spend some time in sections like Drivetrain, Sound, Actions, Control, and Sensing. Not every block will be familiar yet, so stick to experimenting with the blocks they understand.
+
+## Nested "if"
+
+After your child has had a chance to experiment and create their own code, it's a good opportunity to delve into the concept of nested "if" statements together. Nested "if" statements are like a set of choices within choices. Imagine your child deciding what to play with: if it's sunny, they might go outside. But if they find their bike's tire is flat, they decide to play soccer instead. Each "if" leads to another "if", like a branching path where each step depends on the outcome of the previous one. This is how we can make a program, or our robot in this case, make a series of decisions that depend on different conditions.
+
+Discuss with your child each step the robot takes, asking questions like "What will the robot do if it sees an object?" and "What happens if there's an obstacle on the left too?" This will help them grasp how nested "if" statements influence the robot's behavior.
+
+![Nested if example sequence](./figures/screenshot5-nested-ifs.jpg)
+*The robot's journey is a decision-making adventure: it moves forward until it meets an obstacle, then checks left: if it's clear, it turns left; if not, it turns right.*
+
+## Introducing Variables
+
+In programming, variables act like labeled boxes that store information. Just as you might use a box labeled "holiday decorations" to store specific items, variables in coding keep track of data that your program needs to remember.
+
+Let's create a variable in the VEXcode 123 platform:
+
+1. Navigate to the orange "Variables" section on the interface.
+2. Click on "Make a Variable".
+3. Name your variable `numberOfTurnsCompleted`.
+
+You now have a variable, or a "box", labeled `numberOfTurnsCompleted`, but it's empty at the moment. You can visualize it by dragging and dropping the variable onto the canvas, outside your main program.
+
+To assign a value to this variable, use the block "set `numberOfTurnsCompleted` to 0". This action places the number 0 inside your `numberOfTurnsCompleted` variable.
+
+![Nested if example sequence](./figures/variable1.jpg)
+*The robot's journey is a decision-making adventure: it moves forward until it meets an obstacle, then checks left: if it's clear, it turns left; if not, it turns right.*
+[same illustrations of box with a label `numberOfTurnsCompleted` with number 0 inside]
+
+Variables are named to reflect meaningful elements in your code or real-world values, and they are especially useful for tracking changes over time. For example, a variable might represent the number of laps a runner completes, the score in a game, or even the temperature on a thermostat. In the case of our robot, the variable `numberOfTurnsCompleted` keeps count of each turn the robot makes, updating from 0 to 1, 2, 3, and so on, similar to adding items to a box or updating a tally.
+
+![Nested if example sequence](./figures/variable2.jpg)
+*The robot's journey is a decision-making adventure: it moves forward until it meets an obstacle, then checks left: if it's clear, it turns left; if not, it turns right.*
+[illustration of same box with 0 leaving, and 1 coming in]
+
+For now, this variable might not seem like it’s doing much, but soon we'll use it to make our robot behave differently based on how many turns it has completed. This ability to dynamically change the information stored in a variable is what makes them so powerful in programming.
+
+## Introducing the While Loop
+
+In programming, loops let us repeat actions easily. We've already used the "repeat" block for looping a set number of times. Now, let's look at the "while loop", which is common in many programming languages.
+
+Think of a "while loop" as a way to keep doing something as long as a certain condition remains true. For example, imagine your brother has a big test coming up, and he concentrates best with classical music playing in the background. You decide to help by setting a rule: "While my brother is studying, I will play the piano." In programming terms, this would look something like this:
+
+![Nested if example sequence](./figures/play-piano.jpg)
+*The robot's journey is a decision-making adventure: it moves forward until it meets an obstacle, then checks left: if it's clear, it turns left; if not, it turns right.*
+[illustration of VEX online coder blocks, showing code for : while brother is studying, place one piece on the piano]
+
+Here, "brother is studying" serves as the condition, and "play one classical piece on the piano" is the action you perform. After each song, you check again to see if your brother is still studying. If he stops, the condition "brother is studying" becomes false, and you stop playing, thus exiting the loop.
+
+In VEXcode 123, the condition for a "while loop" fits into the diamond-shaped slot in the block, similar to how conditions are used in "if" statements. You insert a condition that the computer evaluates before each iteration of the loop. If the condition evaluates as true, the loop continues; if it turns out to be false, the loop ends.
+
+### Drawing a square with a "while loop"
+
+Let's apply this to our VEX 123 robot. To draw a square, the robot must move forward and turn, repeating this process four times. The "while loop" is perfect for this.
+
+However, we need a way to tell the robot when to stop looping. This is where comparison operators and variables come into play. Comparison operators let us compare two values:
+
+- < (less than)
+- \> (greater than)
+- == (equal to)
+- != (not equal to)
+- <= (less than or equal to)
+- \>= (greater than or equal to)
+
+For example, `3 > 5` is a false statement, while `10 >= 10` is true.
+
+We can also use variables here. Say we have a variable named `counter`, and `counter` is set to `14`, i.e. we place the number 14 in a box labeled "counter". The statement `counter > 21`, which simplifies down to `14 > 21`, is false, while `counter > 0`, which simplifies to `14 > 0`, is true.
+
+For example, we can have a condition as follows:
+
+![Condition statement with if](./figures/screenshot6-explaining-conditions.png)
+*Since the statement "0 > 50" is false, the program will not enter the if statement, and the robot will not do anything. Change the 0 to a 51, and see what happens!*
+
+It's a very similar story with the while loop. But this time, let's create a variable instead of directly comparing two numbers.
+
+1. We create a variable named `counter` and initially set it to 0; think of it as our starting point.
+2. Our "while loop" will use a comparison operator to check: "While counter is less than 4", we'll ask the robot to move and turn.
+
+![Condition statement with while loop](./figures/screenshot7-loop-counter.jpg)
+*Since the statement "counter < 4" is true, the program will enter the while loop, and the robot will move forward by 1 step, non-stop.*
+
+This is known as an infinite while loop. The variable `counter` is set to 0 initially, and the program checks "Is `counter` less than 4?". Since it is, the program enters the while loop. When the program reaches the last line of the loop, it comes back to the top, and asks again: "Is `counter` less than 4?". So on and so forth indefinitely.
+
+The solution is to increment `counter` after each iteration of the loop. After each turn, we increment counter by one. Each increment gets us closer to our stopping point, the completion of the square. We'll increase counter by one each time through the loop; this is known as incrementing.
+
+Ultimately, "incrementing" a value requires us to "change" the value, and that is exactly the block that we will need to drag on the VEXcode 123 platform.
+
+![Loop incrementing counter](./figures/screenshot8-counter-increment.jpg)
+*We use the "change" block in order to add 1 to the counter each time the loop is entered.*
+
+This process ensures that once counter reaches 4, the condition counter < 4 becomes false, effectively stopping the loop after the robot completes the square. Each increment moves us one step closer to ending the loop, preventing it from becoming infinite and allowing the robot to finish drawing the square precisely four times.
+
+Here is the detailed explanation explaining how the counter controls the loop, ensuring the robot performs the exact number of moves and turns needed to draw a square and then stops.
+
+1. **Initialize the Counter:** Before entering the loop, we set the `counter` variable to 0. This is our starting point for counting the number of turns the robot makes.
+2. **Check the Condition:** At the beginning of each loop iteration, the program checks the condition `counter < 4`. Since `counter` is initially 0, which is less than 4, the condition is true.
+3. **Execute the Actions:** With the condition being true, the robot proceeds to perform the programmed actions within the loop. In this case, it moves forward and then turns.
+4. **Increment the Counter:** After executing the actions, `counter` is incremented by 1. This incrementing step is crucial as it updates the number of turns the robot has completed. After the first turn, `counter` becomes 1.
+5. **Repeat the Check and Actions:** The loop now returns to step 2. The program re-evaluates the condition with the updated counter value. Since 1 is still less than 4, the loop continues, allowing the robot to perform the next move and turn.
+6. **Further Increments and Checks:** This cycle of checking the condition, executing actions, and incrementing the `counter` repeats. With each iteration, `counter` increases (2, then 3).
+7. **Condition Becomes False:** Once the robot completes the fourth turn, the counter is incremented to 4. At this point, when the loop checks the condition `counter < 4` again, the result is false because 4 is not less than 4.
+8. **Exit the Loop:** Because the condition is now false, the loop stops executing. The robot has successfully completed the square, making four turns as intended.
+
+Please note that it is also possible to increment the counter in the following manner:
+
+![Loop incrementing counter using + operator](./figures/screenshot9-counter-increment2.png)
+*We can also use the "set counter" block in order to add 1 to the previous counter value each time the loop is entered.*
+
+The last block in the loop updates the value of counter by adding 1 to its current value. So if counter was previously 1, it would now become 2 after this block executes.
+
+### Beyond simple repetition: logical operators
+
+So far, we've explored comparison operators that help determine whether a condition is met, such as whether a `counter` is less than 4. These operators are fundamental for making decisions in loops and if statements.
+
+To enhance the capabilities of our loops, we can also utilize logical operators like `not`, `and`, and `or`. These operators allow us to combine multiple conditions, creating more nuanced decision pathways for our programs. For example, a loop could continue as long as the `counter` is less than 4 AND no object is detected ahead, making the robot's actions more sensitive to its surroundings.
+
+Here's how you might incorporate logical operators into your loops:
+
+- **"While NOT (object found)"**: This loop will keep the robot moving forward until it detects an object. The use of `not` here negates the condition, meaning the loop runs as long as the condition (object found) is false.
+- **"While (no object found) AND (counter is less than 4)"**: This condition ensures that the robot will continue to move forward as long as it hasn't encountered an obstacle and the counter indicating the number of moves made is still below four. This condition combines two checks: whether an object is in the robot's path and whether the movement count is still under four. For the loop to continue, both conditions must be true at the same time. If "no object found" becomes false (meaning an object is detected) or "counter is less than 4" becomes false (meaning the counter has reached four), the loop will stop. The "and" operator ensures that the loop only continues as long as there are no obstacles and the maximum number of moves hasn’t been reached, making it ideal for controlled navigation tasks.
+
+Let's go over a practical example:
+
+1. Start by taking out the `counter < 4` condition from the "while" loop. Simply click and drag it aside, freeing up space for our new, complex condition.
+2. Navigate to the "Operators" section and select the and block, which has two input slots for conditions. Drag this block into the condition area of your "while" loop.
+3. Take the `counter < 4` condition you set aside earlier and connect it to the left slot of the and operator. This condition will ensure the loop executes a set number of times.
+4. Drag the `not` operator from the "Operators" section and place it into the right slot of the and block.
+5. Go to the "Sensing" category and find the "eye found an object?" block. This block detects objects in front of the robot. Place this block inside the `not` operator.
+
+This setup now reads: while the counter is less than four, and no object is detected, the robot should continue executing the loop commands.
+
+Here's what your program should look like now:
+
+![Loop with logical operator](./figures/screenshot10-and-operator.jpg)
+*The code directs the robot to continue moving and turning as long as it has completed fewer than four turns and no object is detected ahead.*
+
+Logical operators allow us to create more complex and interactive programs, enhancing the robot's decision-making abilities. This approach makes the robot's behavior more dynamic, allowing it to respond to its surroundings while keeping track of how many turns it has made.
+
+### Combining loops with if statements
+
+Combining loops with conditional statements, or "if" statements, allows programs to react dynamically at different stages of the loop. This method is ideal for creating complex behaviors within automated sequences, such as having a robot perform different actions depending on the iteration or based on sensor inputs.
+
+Taking what we've previously set up with the while loop and `counter`, we now integrate multiple if statements to diversify the robot's actions during each loop iteration. Start by adding an if statement inside the while loop to check the counter value. You can easily create more conditional checks by right-clicking on the first if statement, selecting "Duplicate," and adjusting the conditions and actions for subsequent checks. This way, you can quickly build a sequence of four distinct if statements within the loop.
+
+![Loop with if statements](./figures/screenshot11-loop-ifs.png)
+*The robot follows a loop where it performs distinct actions at each iteration—honking, acting happy, ringing a doorbell, and appearing sad, based on the counter value.*
 
 ## Final Thoughts
 
 In this guide, your child started with basic commands using the touch buttons on the VEX 123 robot and progressed to more complex programming with the Coder cards. They've tackled "if-else" statements, discovered the power of loops, and learned how to combine different commands to control the robot's actions effectively. For more ideas and activities to extend their learning journey with the VEX 123, visit [VEX 123 Activities](https://education.vex.com/stemlabs/123/activities).
 
-As they grow and look for new challenges, the VEX Go kit serves as an ideal next step. Aimed at children aged 8-9, VEX Go builds on the foundational skills from VEX 123, offering more advanced projects and deeper programming concepts.
+As they grow and look for new challenges, the VEX Go kit serves as an ideal next step. Aimed at children aged 8-9, [VEX Go](https://www.vexrobotics.com/go) builds on the foundational skills from VEX 123, offering more advanced projects and deeper programming concepts.
 
 This exploration of robotics and coding opens up a world of creativity and problem-solving. With each step, your child is laying the groundwork for a strong understanding of STEM, ready to dive into more complex and rewarding projects.
